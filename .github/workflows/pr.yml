@@ -1,0 +1,23 @@
+name: Pull Request Checks
+
+permissions:
+  contents: read
+  packages: read
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    name: Test lib
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version-file: '.nvmrc'
+        cache: 'yarn'
+    - run: yarn install --immutable
+    - run: yarn test
