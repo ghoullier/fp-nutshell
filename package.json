@@ -4,9 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "build:lib": "bun build --minify --outdir=build src/index.ts",
+    "build:types": "tsc -p tsconfig.json"
   },
   "exports": {
     ".": {
@@ -15,11 +14,15 @@
     },
     "./package.json": "./package.json"
   },
-  "packageManager": "yarn@3.5.0",
   "devDependencies": {
-    "@tsconfig/node18": "2.0.1",
-    "typescript": "5.0.4",
-    "vite": "4.3.7",
-    "vitest": "0.31.0"
+    "bun-types": "0.5.8",
+    "typescript": "5.0.4"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "files": [
+      "dist",
+      "package.json"
+    ]
   }
 }

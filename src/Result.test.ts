@@ -1,9 +1,9 @@
-import { describe, expect, it } from "vitest";
+import { expect, test } from "bun:test";
 
 import { Result } from "./Result.js";
 
-describe("Result", () => {
-  it("should map value without change the original reference", () => {
+test("Result", () => {
+  test("should map value without change the original reference", () => {
     const content = Result.Ok(`content`);
     const html = content.map((value) => `<div>${value}</div>`);
     expect(html.ok().orElse("fallback")).toBe("<div>content</div>");

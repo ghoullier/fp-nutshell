@@ -1,9 +1,11 @@
-import { describe, expect, it } from "vitest";
+/// <reference types="bun-types" />
+
+import { expect, test } from "bun:test";
 
 import { Functor } from "./Functor.js";
 
-describe("Functor", () => {
-  it("should map value without change the original reference", () => {
+test("Functor", () => {
+  test("should map value without change the original reference", () => {
     const content = new Functor("content");
     const html = content.map((value) => `<div>${value}</div>`);
     expect(content.getValue()).toBe("content");

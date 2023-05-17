@@ -1,10 +1,31 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig",
-  "extends": "@tsconfig/node18/tsconfig.json",
   "compilerOptions": {
+    // add Bun type definitions
+    "types": ["bun-types"],
+    // Output to `dist` folder
+    "outDir": "build",
     "declaration": true,
-    "module": "NodeNext",
-    "moduleResolution": "nodenext",
-    "outDir": "dist"
-  }
+    "emitDeclarationOnly": true,
+
+    // enable latest features
+    "lib": ["esnext"],
+    "module": "esnext",
+    "target": "esnext",
+
+    // if TS 5.x+
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "moduleDetection": "force",
+
+    "jsx": "react-jsx", // support JSX
+    "allowJs": true, // allow importing `.js` from `.ts`
+    "esModuleInterop": true, // allow default imports for CommonJS modules
+
+    // best practices
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build", "**/*.test.ts", "**/*.test.tsx"]
 }
