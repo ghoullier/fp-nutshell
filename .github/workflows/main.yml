@@ -14,9 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
+    - uses: oven-sh/setup-bun@v1
       with:
-        node-version-file: '.nvmrc'
-        cache: 'yarn'
-    - run: yarn install --immutable
-    - run: yarn test
+        bun-version: latest
+    - run: bun install
+    - run: bun test
+    - run: bun build
