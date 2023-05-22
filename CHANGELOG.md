@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/ghoullier/fp-nutshell/compare/v1.0.4...v1.0.5) (2023-05-22)
+
+
+### Bug Fixes
+
+* update top level to documentation ([#28](https://github.com/ghoullier/fp-nutshell/issues/28)) ([027d9f5](https://github.com/ghoullier/fp-nutshell/commit/027d9f5499c619d8c65d3126f139405a99df148b))
+
 ## [1.0.4](https://github.com/ghoullier/fp-nutshell/compare/v1.0.3...v1.0.4) (2023-05-22)
 
 
