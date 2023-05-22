@@ -20,7 +20,7 @@ jobs:
       - uses: google-github-actions/release-please-action@v3
         id: release
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.RELEASE_TOKEN }}
           release-type: node
       - uses: actions/checkout@v3
       - uses: oven-sh/setup-bun@v1
@@ -36,5 +36,5 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{github.token}}
+          NODE_AUTH_TOKEN: ${{secrets.RELEASE_TOKEN}}
         if: ${{ steps.release.outputs.release_created }}
