@@ -7,6 +7,10 @@
     "build:lib": "bun build --minify --outdir=dist src/index.ts",
     "build:types": "tsc -p tsconfig.json"
   },
+  "files": [
+    "dist",
+    "package.json"
+  ],
   "exports": {
     ".": {
       "import": "./dist/index.js",
@@ -19,10 +23,6 @@
     "typescript": "5.0.4"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com",
-    "files": [
-      "dist",
-      "package.json"
-    ]
+    "registry": "https://npm.pkg.github.com"
   }
 }
