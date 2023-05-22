@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.3](https://github.com/ghoullier/fp-nutshell/compare/v1.0.2...v1.0.3) (2023-05-22)
+
+
+### Bug Fixes
+
+* switch to `secrets.GITHUB_TOKEN` ([#22](https://github.com/ghoullier/fp-nutshell/issues/22)) ([1c79976](https://github.com/ghoullier/fp-nutshell/commit/1c79976c3e7f17bff1d79efb6345b3f8ce01cd5d))
+* update ci workflow ([#25](https://github.com/ghoullier/fp-nutshell/issues/25)) ([95fae3c](https://github.com/ghoullier/fp-nutshell/commit/95fae3cf8d2984c76162871f055a471522776956))
+* update readme ([#24](https://github.com/ghoullier/fp-nutshell/issues/24)) ([983d5e2](https://github.com/ghoullier/fp-nutshell/commit/983d5e2359e11a21da866f4e0d413cca2e61df26))
+
 ## [1.0.2](https://github.com/ghoullier/fp-nutshell/compare/v1.0.1...v1.0.2) (2023-05-22)
 
 
