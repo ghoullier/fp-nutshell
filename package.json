@@ -1,5 +1,5 @@
 {
-  "name": "fp-nutshell",
+  "name": "@ghoullier/fp-nutshell",
   "description": "Functional programming in a nutshell",
   "version": "1.0.0",
   "type": "module",
