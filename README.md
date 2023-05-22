@@ -7,3 +7,9 @@
 ```sh
 bun install
 ```
+
+## Run test
+
+```sh
+bun test
+```
