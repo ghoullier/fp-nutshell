@@ -13,11 +13,11 @@ jobs:
     name: Test lib
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: oven-sh/setup-bun@v1
-      with:
-        bun-version: latest
-    - run: bun install
-    - run: bun test
-    - run: bun run build:lib
-    - run: bun run build:types
+      - uses: actions/checkout@v3
+      - uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+      - run: bun install
+      - run: bun test
+      - run: bun run build:lib
+      - run: bun run build:types
