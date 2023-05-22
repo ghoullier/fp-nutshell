@@ -2,6 +2,8 @@
 
 > Just a playground around functional programming stuff
 
+> This Project rely on bun toolchain
+
 ## Install project
 
 ```sh
