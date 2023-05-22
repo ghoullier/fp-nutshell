@@ -15,7 +15,7 @@
     "./package.json": "./package.json"
   },
   "devDependencies": {
-    "bun-types": "0.5.8",
+    "bun-types": "0.6.2",
     "typescript": "5.0.4"
   },
   "publishConfig": {
