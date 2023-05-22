@@ -31,7 +31,7 @@ jobs:
       - run: bun test
       - run: bun run build:lib
       - run: bun run build:types
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
         with:
           registry-url: 'https://npm.pkg.github.com'
         if: ${{ steps.release.outputs.release_created }}
