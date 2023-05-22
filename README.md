@@ -2,7 +2,7 @@
 
 > Just a playground around functional programming stuff
 
-> This Project rely on bun toolchain
+> This Project rely on [bun](https://bun.sh) toolchain
 
 ## Install project
 
