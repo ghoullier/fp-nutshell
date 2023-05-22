@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/ghoullier/fp-nutshell/compare/v1.0.0...v1.0.1) (2023-05-22)
+
+
+### Bug Fixes
+
+* update package name ([#17](https://github.com/ghoullier/fp-nutshell/issues/17)) ([f5ea04d](https://github.com/ghoullier/fp-nutshell/commit/f5ea04dec711e01b95ec48ea3d3d397d53475d9f))
+* update publish token ([#19](https://github.com/ghoullier/fp-nutshell/issues/19)) ([01415ad](https://github.com/ghoullier/fp-nutshell/commit/01415adabb8db609c6fc76b2eb226c1b0a10cbb3))
+
 ## 1.0.0 (2023-05-22)
 
 
