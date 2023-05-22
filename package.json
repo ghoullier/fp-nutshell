@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build:lib": "bun build --minify --outdir=build src/index.ts",
+    "build:lib": "bun build --minify --outdir=dist src/index.ts",
     "build:types": "tsc -p tsconfig.json"
   },
   "exports": {
