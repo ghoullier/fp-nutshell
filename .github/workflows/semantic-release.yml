@@ -22,7 +22,6 @@ jobs:
         with:
           token: ${{ github.token }}
           release-type: node
-          package-name: fp-nutshell
       - uses: actions/checkout@v3
       - uses: oven-sh/setup-bun@v1
         with:
