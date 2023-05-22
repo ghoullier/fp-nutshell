@@ -13,3 +13,13 @@ bun install
 ```sh
 bun test
 ```
+
+## Build the project
+
+```sh
+bun run build:lib
+```
+
+```sh
+bun run build:types
+```
