@@ -3,7 +3,7 @@
     // add Bun type definitions
     "types": ["bun-types"],
     // Output to `dist` folder
-    "outDir": "build",
+    "outDir": "dist",
     "declaration": true,
     "emitDeclarationOnly": true,
 
