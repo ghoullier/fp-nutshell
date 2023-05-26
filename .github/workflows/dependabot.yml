@@ -15,10 +15,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get the user login
-        run: echo "The user login is ${{ github.event.issue.user.login }}"
+        run: echo "The user login is ${{ github.event.pull_request.user.login }}"
   dependabot:
     runs-on: ubuntu-latest
-    if: github.event.issue.user.login == 'dependabot[bot]'
+    if: github.event.pull_request.user.login == 'dependabot[bot]'
     steps:
       - uses: actions/checkout@v3
       - uses: oven-sh/setup-bun@v1
