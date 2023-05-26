@@ -1,0 +1,35 @@
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [ opened, synchronize ]
+
+name: Dependabot Bun Support
+
+permissions:
+  contents: write # to commit code (actions/checkout)
+
+jobs:
+  debug-dependabot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the user login
+        run: echo "The user login is ${{ github.event.issue.user.login }}"
+  dependabot:
+    runs-on: ubuntu-latest
+    if: github.event.issue.user.login === 'dependabot'
+    steps:
+      - uses: actions/checkout@v3
+      - uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+      - run: bun install
+      - name: Set @github-actions[bot] as committer
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+      - run: git status
+      - run: git add -A
+      - run: git commit --amend --no-edit
+      - run: git push --force
