@@ -16,11 +16,15 @@ jobs:
     steps:
       - name: Get the user login
         run: echo "The user login is ${{ github.event.pull_request.user.login }}"
+      - name: Get the ref
+        run: echo "The head ref is ${{ github.event.pull_request.head.ref }}"
   dependabot:
     runs-on: ubuntu-latest
     if: github.event.pull_request.user.login == 'dependabot[bot]'
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
       - uses: oven-sh/setup-bun@v1
         with:
           bun-version: latest
@@ -31,5 +35,5 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
       - run: git status
       - run: git add -A
-      - run: git commit --amend --no-edit
-      - run: git push --force
+      - run: git commit -m "chore(deps-dev): bump bun lockfile"
+      - run: git push
