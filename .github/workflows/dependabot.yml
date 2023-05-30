@@ -35,5 +35,6 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
       - run: git status
       - run: git add -A
-      - run: git commit -m "chore(deps-dev): bump bun lockfile"
+      - run: |
+          git commit -m "chore(deps-dev): bump bun lockfile"
       - run: git push
