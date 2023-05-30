@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.7](https://github.com/ghoullier/fp-nutshell/compare/v1.0.6...v1.0.7) (2023-05-30)
+
+
+### Bug Fixes
+
+* bad git command ([#40](https://github.com/ghoullier/fp-nutshell/issues/40)) ([971370f](https://github.com/ghoullier/fp-nutshell/commit/971370f3543d7dd9454f8dba4ac89bc2cffd2401))
+* improve bun ci support ([#38](https://github.com/ghoullier/fp-nutshell/issues/38)) ([4a6970c](https://github.com/ghoullier/fp-nutshell/commit/4a6970c3efbb488290a3d86be5eda48257f28cf3))
+
 ## [1.0.6](https://github.com/ghoullier/fp-nutshell/compare/v1.0.5...v1.0.6) (2023-05-22)
 
 
