@@ -1,4 +1,4 @@
-import { expect, test } from "bun:test";
+import { expect, test, spyOn } from "bun:test";
 
 import { Option } from "./Option.js";
 
@@ -17,22 +17,25 @@ test("Option", () => {
   });
   test("should not call the map function when the value is None", () => {
     const none = Option.None<string>();
-    const mapper = (value) => `<div>${value}</div>`;
+    const mapper = spyOn((value) => `<div>${value}</div>`);
     const html = none.map(mapper);
     expect(html.isOk()).toBe(false);
+    expect(mapper).toHaveBeenCalledOnce();
   });
   test("should call the map function when the value is Some", () => {
     const some = Option.Some("content");
-    const mapper = (value) => `<div>${value}</div>`;
+    const mapper = spyOn((value) => `<div>${value}</div>`);
     const html = some.map(mapper);
     expect(html.isOk()).toBe(true);
     expect(html.orElse(`fallback`)).toBe(`<div>content</div>`);
+    expect(mapper).toHaveBeenCalledOnce();
   });
   test("should flatMap not self wrap result", () => {
     const some = Option.Some("content");
-    const mapper = (value) => Option.Some(`<div>${value}</div>`);
+    const mapper = spyOn((value) => Option.Some(`<div>${value}</div>`));
     const html = some.flatMap(mapper);
     expect(html.isOk()).toBe(true);
     expect(html.orElse(`fallback`)).toBe(`<div>content</div>`);
+    expect(mapper).toHaveBeenCalledOnce();
   });
 });
