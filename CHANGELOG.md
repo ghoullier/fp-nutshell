@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/ghoullier/fp-nutshell/compare/v1.0.8...v1.1.0) (2023-06-13)
+
+
+### Features
+
+* **typing:** support const type parameters ([#49](https://github.com/ghoullier/fp-nutshell/issues/49)) ([9f461ff](https://github.com/ghoullier/fp-nutshell/commit/9f461ff556375cc793a2e9d1622658da20ac2d55))
+
 ## [1.0.8](https://github.com/ghoullier/fp-nutshell/compare/v1.0.7...v1.0.8) (2023-06-01)
 
 
