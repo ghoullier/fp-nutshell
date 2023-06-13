@@ -12,7 +12,7 @@ interface Success<Value> {
 
 type $Result<Value, Error> = Success<Value> | Failure<Error>;
 
-export class Result<Value, Error> {
+export class Result<const Value, const Error> {
   readonly #result: $Result<Value, Error>;
   static Ok<Value, Error>(value: Value): Result<Value, Error> {
     return new this({ value });

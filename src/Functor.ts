@@ -2,8 +2,8 @@ import { Container } from "./Container.js";
 
 import type { Mapper } from "./Mapper.js";
 
-export class Functor<Value> extends Container<Value> {
-  map<Result>(mapper: Mapper<Value, Result>): Functor<Result> {
+export class Functor<const Value> extends Container<Value> {
+  map<const Result>(mapper: Mapper<Value, Result>): Functor<Result> {
     return new Functor(mapper(this.getValue()));
   }
 }
