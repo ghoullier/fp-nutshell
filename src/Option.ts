@@ -4,7 +4,7 @@ interface Some<Value> {
   value: Value;
 }
 
-interface None<Value> {}
+interface None<_> {}
 
 type $Option<Value> = Some<Value> | None<Value>;
 
