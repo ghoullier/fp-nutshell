@@ -28,9 +28,9 @@ export class Result<const Value, const Error> {
   }
   toString(): string {
     if (this.isError()) {
-      return `Error ( ${(this.#result as Failure<Error>).error} )`;
+      return `Error ( ${String((this.#result as Failure<Error>).error)} )`;
     }
-    return `Ok ( ${(this.#result as Success<Value>).value} )`;
+    return `Ok ( ${String((this.#result as Success<Value>).value)} )`;
   }
   map<Output>(mapper: Mapper<Value, Output>): Result<Output, Error> {
     if (this.isError()) {
