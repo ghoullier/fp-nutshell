@@ -4,9 +4,9 @@ interface Some<Value> {
   value: Value;
 }
 
-interface None<_> {}
+interface None {}
 
-type $Option<Value> = Some<Value> | None<Value>;
+type $Option<Value> = Some<Value> | None;
 
 export class Option<const Value> {
   readonly #option: $Option<Value>;
@@ -30,7 +30,7 @@ export class Option<const Value> {
   }
   toString(): string {
     if (this.isOk()) {
-      return `Some(${(this.#option as Some<Value>).value})`;
+      return `Some(${String((this.#option as Some<Value>).value)})`;
     }
     return "None";
   }
