@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/ghoullier/fp-nutshell/compare/v1.1.0...v1.2.0) (2023-07-12)
+
+
+### Features
+
+* add describe test wrapper ([#59](https://github.com/ghoullier/fp-nutshell/issues/59)) ([34286a8](https://github.com/ghoullier/fp-nutshell/commit/34286a8b5ffc9efe11c5527fbaab3c077657aaba))
+* improve test and typesfaty ([#57](https://github.com/ghoullier/fp-nutshell/issues/57)) ([16344c5](https://github.com/ghoullier/fp-nutshell/commit/16344c55bda2faf0e613cfcd0657064e0609b3fc))
+
 ## [1.1.0](https://github.com/ghoullier/fp-nutshell/compare/v1.0.8...v1.1.0) (2023-06-13)
 
 
