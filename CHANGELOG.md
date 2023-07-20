@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.2.1](https://github.com/ghoullier/fp-nutshell/compare/v1.2.0...v1.2.1) (2023-07-20)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @typescript-eslint/eslint-plugin from 6.0.0 to 6.1.0 ([#64](https://github.com/ghoullier/fp-nutshell/issues/64)) ([de51259](https://github.com/ghoullier/fp-nutshell/commit/de51259200bca397213c081446a10e480bf7eae2))
+* **deps-dev:** bump @typescript-eslint/parser from 6.0.0 to 6.1.0 ([#63](https://github.com/ghoullier/fp-nutshell/issues/63)) ([9cec054](https://github.com/ghoullier/fp-nutshell/commit/9cec054a1d554bc8e604c6c3d3f17a50ec3ec1d1))
+* **deps-dev:** bump eslint from 8.44.0 to 8.45.0 ([#62](https://github.com/ghoullier/fp-nutshell/issues/62)) ([6492a57](https://github.com/ghoullier/fp-nutshell/commit/6492a57a6259a3745b1661aae7b237a6fbdedb3b))
+* enable eslint ([#61](https://github.com/ghoullier/fp-nutshell/issues/61)) ([1b9f0e3](https://github.com/ghoullier/fp-nutshell/commit/1b9f0e352960833388fab789d9e8f611b7b0c488))
+* support chore changes in release ([#65](https://github.com/ghoullier/fp-nutshell/issues/65)) ([620a44f](https://github.com/ghoullier/fp-nutshell/commit/620a44f21e36c7683e7702d53909dea991903600))
+
 ## [1.2.0](https://github.com/ghoullier/fp-nutshell/compare/v1.1.0...v1.2.0) (2023-07-12)
 
 
