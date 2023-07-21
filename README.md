@@ -19,5 +19,5 @@ bun test
 ## Build the project
 
 ```sh
-bun run build
+bun --bun run build
 ```
