@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/ghoullier/fp-nutshell/compare/v1.2.1...v1.2.2) (2023-07-21)
+
+
+### Bug Fixes
+
+* configure emit types files ([#67](https://github.com/ghoullier/fp-nutshell/issues/67)) ([98402b9](https://github.com/ghoullier/fp-nutshell/commit/98402b9ebfca7ff66ffefa7c50b054e0458e2647))
+
 ## [1.2.1](https://github.com/ghoullier/fp-nutshell/compare/v1.2.0...v1.2.1) (2023-07-20)
 
 
