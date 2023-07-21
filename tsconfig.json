@@ -11,7 +11,9 @@
     "skipLibCheck": true,
     "jsx": "preserve",
     "allowSyntheticDefaultImports": true,
-    "noEmit": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "dist",
     "types": ["bun-types"]
   },
   "include": ["src/**/*"],
