@@ -14,4 +14,9 @@ describe("Result", () => {
     const html = content.map((value) => `<div>${value}</div>`);
     expect(html.toString()).toBe("Ok ( <div>content</div> )");
   });
+
+  test("should correctly render when apply toString() when Result is Error", () => {
+    const content = Result.Error(new Error("failure"));
+    expect(content.toString()).toBe("Error ( Error: failure )");
+  });
 });
