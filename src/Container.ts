@@ -3,7 +3,7 @@ export class Container<const Value> {
   constructor(value: Value) {
     this.#value = value;
   }
-  getValue(): Value {
+  get value(): Value {
     return this.#value;
   }
 }
