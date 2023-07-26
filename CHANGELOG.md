@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.4](https://github.com/ghoullier/fp-nutshell/compare/v1.2.3...v1.2.4) (2023-07-26)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @typescript-eslint/eslint-plugin from 6.1.0 to 6.2.0 ([#71](https://github.com/ghoullier/fp-nutshell/issues/71)) ([5c80626](https://github.com/ghoullier/fp-nutshell/commit/5c80626c3e3c02621ae75d5f9058000cdc9e56bc))
+* **deps-dev:** bump @typescript-eslint/parser from 6.1.0 to 6.2.0 ([#72](https://github.com/ghoullier/fp-nutshell/issues/72)) ([e93bb0a](https://github.com/ghoullier/fp-nutshell/commit/e93bb0a687cc11ac34618857b435e2d64c0a0659))
+
 ## [1.2.3](https://github.com/ghoullier/fp-nutshell/compare/v1.2.2...v1.2.3) (2023-07-21)
 
 
