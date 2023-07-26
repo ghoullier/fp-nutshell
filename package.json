@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build:lib": "bun build --minify --outdir=dist src/index.ts",
-    "build:types": "tsc -p tsconfig.json",
+    "build:types": "tsc -p tsconfig.build.json",
     "build": "bun build:lib && bun build:types",
     "lint": "eslint --ext .ts src"
   },
