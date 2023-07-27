@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.3.0](https://github.com/ghoullier/fp-nutshell/compare/v1.2.4...v1.3.0) (2023-07-27)
+
+
+### Features
+
+* refactor container value ([#75](https://github.com/ghoullier/fp-nutshell/issues/75)) ([f074cbc](https://github.com/ghoullier/fp-nutshell/commit/f074cbc1d70ebdbec2352125fc8ad60d1dcd7f3c))
+
+
+### Bug Fixes
+
+* add filter on canary jobs ([#80](https://github.com/ghoullier/fp-nutshell/issues/80)) ([5b82976](https://github.com/ghoullier/fp-nutshell/commit/5b829763c17bd5f319a16166cf43a736c862b178))
+* Implements canary release ([#78](https://github.com/ghoullier/fp-nutshell/issues/78)) ([f9106d9](https://github.com/ghoullier/fp-nutshell/commit/f9106d9d6833f679afcab5fd2b278154ff391768))
+
+
+### Miscellaneous
+
+* Configure canary release ([#77](https://github.com/ghoullier/fp-nutshell/issues/77)) ([583213d](https://github.com/ghoullier/fp-nutshell/commit/583213d0ea4a7c8aaedfdd3127ed85fcd108c2b6))
+* exclude test from build ([#79](https://github.com/ghoullier/fp-nutshell/issues/79)) ([2294b2b](https://github.com/ghoullier/fp-nutshell/commit/2294b2b3d46d84a7e2bea95f2dceb062a34ab6dd))
+
 ## [1.2.4](https://github.com/ghoullier/fp-nutshell/compare/v1.2.3...v1.2.4) (2023-07-26)
 
 
