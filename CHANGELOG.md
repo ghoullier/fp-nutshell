@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/ghoullier/fp-nutshell/compare/v1.3.0...v1.3.1) (2023-07-29)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump eslint from 8.45.0 to 8.46.0 ([#81](https://github.com/ghoullier/fp-nutshell/issues/81)) ([14a1abd](https://github.com/ghoullier/fp-nutshell/commit/14a1abd467f9925fde8b11eda7c5f2f038d9b49b))
+
 ## [1.3.0](https://github.com/ghoullier/fp-nutshell/compare/v1.2.4...v1.3.0) (2023-07-27)
 
 
