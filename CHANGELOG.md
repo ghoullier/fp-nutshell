@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.4.0](https://github.com/ghoullier/fp-nutshell/compare/v1.3.1...v1.4.0) (2023-07-31)
+
+
+### Features
+
+* Improve canary release action ([#85](https://github.com/ghoullier/fp-nutshell/issues/85)) ([3e89a1b](https://github.com/ghoullier/fp-nutshell/commit/3e89a1b07b77329524e3ca36bd0a189e47ebc361))
+* Migrate Option and Result to Container ([#83](https://github.com/ghoullier/fp-nutshell/issues/83)) ([f59bb22](https://github.com/ghoullier/fp-nutshell/commit/f59bb2237908c1466308579c58cf776eb9d2d6f0))
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @typescript-eslint/eslint-plugin from 6.2.0 to 6.2.1 ([#88](https://github.com/ghoullier/fp-nutshell/issues/88)) ([cff6cc7](https://github.com/ghoullier/fp-nutshell/commit/cff6cc7e5415000ab506f458469a302fa9f71f21))
+* **deps-dev:** bump @typescript-eslint/parser from 6.2.0 to 6.2.1 ([#87](https://github.com/ghoullier/fp-nutshell/issues/87)) ([f936b97](https://github.com/ghoullier/fp-nutshell/commit/f936b9730189089585bc56436d556177625c5590))
+* **deps-dev:** bump bun-types from 0.7.0 to 0.7.1 ([#86](https://github.com/ghoullier/fp-nutshell/issues/86)) ([78bc243](https://github.com/ghoullier/fp-nutshell/commit/78bc2437da48021c8354c363801876ca63f67e1b))
+* Improve bun cache ([#89](https://github.com/ghoullier/fp-nutshell/issues/89)) ([c84852e](https://github.com/ghoullier/fp-nutshell/commit/c84852e9a35bd1992a597f927cc8e19c35981b17))
+
 ## [1.3.1](https://github.com/ghoullier/fp-nutshell/compare/v1.3.0...v1.3.1) (2023-07-29)
 
 
