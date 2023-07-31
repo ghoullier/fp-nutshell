@@ -5,13 +5,14 @@ on:
   pull_request:
     types: [ assigned, opened, synchronize, reopened, labeled ]
 
-name: ci
+name: Pull Request
 
 permissions:
   contents: read # to fetch code (actions/checkout)
+  packages: write # to publish packages (npm publish)
 
 jobs:
-  test:
+  setup: 
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -19,6 +20,32 @@ jobs:
         with:
           bun-version: latest
       - run: bun install
+      - uses: actions/cache@v3
+        with:
+          key: ${{ runner.os }}--dependencies
+          path: |
+            ./node_modules
+            ./dist
       - run: bun test
       - run: bun run lint
       - run: bun --bun run build
+  canary: 
+    runs-on: ubuntu-latest
+    environment: canary
+    needs: [setup]
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          registry-url: 'https://npm.pkg.github.com'
+      - uses: actions/cache@v3
+        with:
+          key: ${{ runner.os }}--dependencies
+          path: |
+            ./node_modules
+            ./dist
+      - run: npm version prerelease --preid=canary --no-git-tag-version
+      - run: npm publish --tag canary
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - run: cat package.json
