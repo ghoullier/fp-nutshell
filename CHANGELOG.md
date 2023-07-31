@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/ghoullier/fp-nutshell/compare/v1.4.0...v1.4.1) (2023-07-31)
+
+
+### Miscellaneous
+
+* Improve workflow ([#90](https://github.com/ghoullier/fp-nutshell/issues/90)) ([9330a82](https://github.com/ghoullier/fp-nutshell/commit/9330a828a14cdc2ff91f7d27f1f3b4b32f1f632e))
+
 ## [1.4.0](https://github.com/ghoullier/fp-nutshell/compare/v1.3.1...v1.4.0) (2023-07-31)
 
 
