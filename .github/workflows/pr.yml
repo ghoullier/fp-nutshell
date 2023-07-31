@@ -7,23 +7,14 @@ name: Pull Request
 
 permissions:
   contents: read # to fetch code (actions/checkout)
-  packages: write # to publish packages (npm publish)
+  packages: write # to publish packages (npm publish) 
 
 jobs:
   setup: 
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/cache@v3
-        with:
-          key: ${{ runner.os }}--dependencies
-          path: |
-            ./node_modules/**
-            ./dist/**
-      - uses: oven-sh/setup-bun@v1
-        with:
-          bun-version: latest
-      - run: bun install
+      - uses: ./.github/workflows/actions/setup-bun
       - run: bun test
       - run: bun run lint
       - run: bun --bun run build
@@ -39,7 +30,7 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
       - uses: actions/cache@v3
         with:
-          key: ${{ runner.os }}--dependencies
+          key: dependencies
           path: |
             ./node_modules/**
             ./dist/**

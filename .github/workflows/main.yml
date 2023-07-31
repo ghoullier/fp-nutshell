@@ -15,9 +15,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: oven-sh/setup-bun@v1
-        with:
-          bun-version: latest
-      - run: bun install
+      - uses: ./.github/workflows/actions/setup-bun
       - run: bun test
+
+  build:
+    name: Build lib
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./.github/workflows/actions/setup-bun
       - run: bun --bun run build

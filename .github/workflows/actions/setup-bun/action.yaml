@@ -1,0 +1,16 @@
+name: Setup Bun
+
+runs:
+  using: "composite"
+  steps: 
+    - uses: actions/cache@v3
+      with:
+        key: dependencies
+        path: |
+          ./node_modules/**
+          ./dist/**
+    - uses: oven-sh/setup-bun@v1
+      with:
+        bun-version: latest
+    - run: bun install
+      shell: bash
