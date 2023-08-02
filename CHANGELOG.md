@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.4.2](https://github.com/ghoullier/fp-nutshell/compare/v1.4.1...v1.4.2) (2023-08-02)
+
+
+### Bug Fixes
+
+* add missing push type `labeled` ([#95](https://github.com/ghoullier/fp-nutshell/issues/95)) ([7d976b3](https://github.com/ghoullier/fp-nutshell/commit/7d976b33ff5b51f5729aa39bdf5f307939252614))
+
+
+### Miscellaneous
+
+* experiment cancel deployments ([#92](https://github.com/ghoullier/fp-nutshell/issues/92)) ([401f0ca](https://github.com/ghoullier/fp-nutshell/commit/401f0ca5a86bd889a0e6a088646669050bda6976))
+* Refactor action inputs ([#94](https://github.com/ghoullier/fp-nutshell/issues/94)) ([7ba655f](https://github.com/ghoullier/fp-nutshell/commit/7ba655f29d20d0afa4917ae77736a9975403d46d))
+
 ## [1.4.1](https://github.com/ghoullier/fp-nutshell/compare/v1.4.0...v1.4.1) (2023-07-31)
 
 
