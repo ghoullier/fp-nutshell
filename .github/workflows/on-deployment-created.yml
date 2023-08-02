@@ -1,17 +1,18 @@
 on:
-  pull_request:
-    branches: [ main ]
-    types: [ closed ]
+  deployment:
 
-name: On Pull Request Closed
+name: On deployment created
 
 jobs:
   reject-pending-deployments:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Reject pending deployments
+      - name: Reject pending deployments (preserve-latest)
         uses: ./.github/actions/reject-pending-deployments
         with:
+          branch: ${{ github.event.deployment.ref }}
           environment: 1197529504 # https://github.com/ghoullier/fp-nutshell/settings/environments/1197529504/edit
+          preserve-latest: true
+          sha: ${{ github.event.deployment.sha }}
           token: ${{ secrets.PAT }}
