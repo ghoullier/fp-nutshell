@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.3](https://github.com/ghoullier/fp-nutshell/compare/v1.4.2...v1.4.3) (2023-08-02)
+
+
+### Miscellaneous
+
+* remove `runs.js` file ([#96](https://github.com/ghoullier/fp-nutshell/issues/96)) ([d8189ce](https://github.com/ghoullier/fp-nutshell/commit/d8189cec4e600495e7923a8f4805dfec80c6dcd7))
+
 ## [1.4.2](https://github.com/ghoullier/fp-nutshell/compare/v1.4.1...v1.4.2) (2023-08-02)
 
 
