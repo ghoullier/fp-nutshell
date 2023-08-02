@@ -1,16 +1,16 @@
 on:
   pull_request:
-    branches: [ main ]
-    types: [ assigned, opened, synchronize, reopened ]
+    branches: [main]
+    types: [assigned, opened, synchronize, reopened, labeled]
 
 name: Pull Request
 
 permissions:
   contents: read # to fetch code (actions/checkout)
-  packages: write # to publish packages (npm publish) 
+  packages: write # to publish packages (npm publish)
 
 jobs:
-  setup: 
+  setup:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -19,7 +19,7 @@ jobs:
       - run: bun run lint
       - run: bun --bun run build
 
-  canary-release: 
+  canary-release:
     runs-on: ubuntu-latest
     environment: canary
     needs: [setup]
@@ -27,7 +27,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          registry-url: 'https://npm.pkg.github.com'
+          registry-url: "https://npm.pkg.github.com"
       - uses: actions/cache@v3
         with:
           key: dependencies
