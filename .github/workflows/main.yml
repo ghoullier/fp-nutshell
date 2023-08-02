@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: ./.github/workflows/actions/setup-bun
+      - uses: ./.github/actions/setup-bun
       - run: bun test
 
   build:
@@ -23,5 +23,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: ./.github/workflows/actions/setup-bun
+      - uses: ./.github/actions/setup-bun
       - run: bun --bun run build

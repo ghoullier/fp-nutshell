@@ -1,7 +1,7 @@
 on:
   pull_request:
     branches: [ main ]
-    types: [ assigned, opened, synchronize, reopened, labeled ]
+    types: [ assigned, opened, synchronize, reopened ]
 
 name: Pull Request
 
@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: ./.github/workflows/actions/setup-bun
+      - uses: ./.github/actions/setup-bun
       - run: bun test
       - run: bun run lint
       - run: bun --bun run build

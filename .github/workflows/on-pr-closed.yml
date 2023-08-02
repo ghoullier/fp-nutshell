@@ -1,0 +1,20 @@
+on:
+  pull_request:
+    branches: [ main ]
+    types: [ closed ]
+
+name: On Pull Request Closed
+
+jobs:
+  reject-pending-deployments:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Cancel pending deployments
+        uses: ./.github/actions/reject-pending-deployments
+        with:
+          owner: ghoullier
+          repository: fp-nutshell
+          environment: 1197529504 # https://github.com/ghoullier/fp-nutshell/settings/environments/1197529504/edit
+          branch: ${{ github.event.pull_request.head.ref }}
+          token: ${{ secrets.PAT }}
