@@ -3,7 +3,7 @@ on:
     branches:
       - main
   pull_request:
-    types: [ opened, synchronize ]
+    types: [opened, synchronize]
 
 name: Dependabot Bun Support
 
@@ -11,13 +11,6 @@ permissions:
   contents: write # to commit code (actions/checkout)
 
 jobs:
-  debug-dependabot:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Get the user login
-        run: echo "The user login is ${{ github.event.pull_request.user.login }}"
-      - name: Get the ref
-        run: echo "The head ref is ${{ github.event.pull_request.head.ref }}"
   dependabot:
     runs-on: ubuntu-latest
     if: github.event.pull_request.user.login == 'dependabot[bot]'
