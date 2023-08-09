@@ -14,4 +14,4 @@ jobs:
         uses: ./.github/actions/reject-pending-deployments
         with:
           environment: 1197529504 # https://github.com/ghoullier/fp-nutshell/settings/environments/1197529504/edit
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.REJECT_DEPLOYMENTS_TOKEN }}

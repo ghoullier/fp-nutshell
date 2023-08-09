@@ -15,4 +15,4 @@ jobs:
           environment: 1197529504 # https://github.com/ghoullier/fp-nutshell/settings/environments/1197529504/edit
           preserve-latest: true
           sha: ${{ github.event.deployment.sha }}
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.REJECT_DEPLOYMENTS_TOKEN }}
