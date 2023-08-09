@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.4.5](https://github.com/ghoullier/fp-nutshell/compare/v1.4.4...v1.4.5) (2023-08-09)
+
+
+### Bug Fixes
+
+* update secret token ([#104](https://github.com/ghoullier/fp-nutshell/issues/104)) ([5a555dd](https://github.com/ghoullier/fp-nutshell/commit/5a555dd526ef4bd6b6a15a7ae7105751285d02d0))
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @typescript-eslint/eslint-plugin from 6.2.1 to 6.3.0 ([#102](https://github.com/ghoullier/fp-nutshell/issues/102)) ([629fe69](https://github.com/ghoullier/fp-nutshell/commit/629fe69d1de194f3dab6169f0d5be21bb8bfbae8))
+* **deps-dev:** bump @typescript-eslint/parser from 6.2.1 to 6.3.0 ([#100](https://github.com/ghoullier/fp-nutshell/issues/100)) ([d7bbaf7](https://github.com/ghoullier/fp-nutshell/commit/d7bbaf7b90178162e5ed7ad84e60a08ba21fcb72))
+* **deps-dev:** bump bun-types from 0.7.2 to 0.7.3 ([#101](https://github.com/ghoullier/fp-nutshell/issues/101)) ([a9d617d](https://github.com/ghoullier/fp-nutshell/commit/a9d617da2c6e75e939707dafe3f3329deaf0b179))
+
 ## [1.4.4](https://github.com/ghoullier/fp-nutshell/compare/v1.4.3...v1.4.4) (2023-08-05)
 
 
