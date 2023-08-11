@@ -7,20 +7,24 @@
     "build:lib": "bun build --minify --outdir=dist src/index.ts",
     "build:types": "tsc -p tsconfig.build.json",
     "build": "bun build:lib && bun build:types",
-    "lint": "eslint --ext .ts src"
+    "lint": "npm run lint:lib && npm run lint:exports",
+    "lint:lib": "eslint --ext .ts src",
+    "lint:exports": "attw --pack . --ignore-rules no-resolution cjs-resolves-to-esm"
   },
   "files": [
     "dist",
     "package.json"
   ],
-  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
+      "default": "./dist/index.js",
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.js"
     },
     "./package.json": "./package.json"
   },
   "devDependencies": {
+    "@arethetypeswrong/cli": "0.7.1",
     "@tsconfig/strictest": "2.0.1",
     "@typescript-eslint/eslint-plugin": "6.3.0",
     "@typescript-eslint/parser": "6.3.0",
