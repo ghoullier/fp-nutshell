@@ -34,7 +34,7 @@ jobs:
           path: |
             ./node_modules/**
             ./dist/**
-      - run: npm version prerelease --preid=canary --no-git-tag-version
+      - run: npm version prerelease --preid=canary.$(git rev-parse --short HEAD) --no-git-tag-version
       - run: npm publish --tag canary
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
