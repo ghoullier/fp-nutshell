@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.4.6](https://github.com/ghoullier/fp-nutshell/compare/v1.4.5...v1.4.6) (2023-08-11)
+
+
+### Miscellaneous
+
+* add `@arethetypeswrong/cli` dependency ([#105](https://github.com/ghoullier/fp-nutshell/issues/105)) ([f15de54](https://github.com/ghoullier/fp-nutshell/commit/f15de549116da0c03667dedbbf86004b01ca6eeb))
+* **deps-dev:** bump eslint from 8.46.0 to 8.47.0 ([#108](https://github.com/ghoullier/fp-nutshell/issues/108)) ([6086e7f](https://github.com/ghoullier/fp-nutshell/commit/6086e7f39fdde158cfc1936d944019605e3c9f05))
+* support uniq canary release preid ([#107](https://github.com/ghoullier/fp-nutshell/issues/107)) ([1539b4e](https://github.com/ghoullier/fp-nutshell/commit/1539b4ec0af3eb27e6b8161ea2e8c8caa1698611))
+
 ## [1.4.5](https://github.com/ghoullier/fp-nutshell/compare/v1.4.4...v1.4.5) (2023-08-09)
 
 
