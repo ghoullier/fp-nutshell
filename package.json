@@ -27,7 +27,7 @@
     "@arethetypeswrong/cli": "0.7.1",
     "@tsconfig/strictest": "2.0.1",
     "@typescript-eslint/eslint-plugin": "6.3.0",
-    "@typescript-eslint/parser": "6.3.0",
+    "@typescript-eslint/parser": "6.4.0",
     "bun-types": "0.7.3",
     "eslint": "8.47.0",
     "typescript": "5.1.6"
