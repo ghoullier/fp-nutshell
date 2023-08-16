@@ -5,10 +5,9 @@ runs:
   steps: 
     - uses: actions/cache@v3
       with:
-        key: dependencies
+        key: ${{ runner.os }}-dependencies-${{ hashFiles('./bun.lockb') }}
         path: |
           ./node_modules/**
-          ./dist/**
     - uses: oven-sh/setup-bun@v1
       with:
         bun-version: latest
