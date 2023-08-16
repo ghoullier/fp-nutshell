@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.4.7](https://github.com/ghoullier/fp-nutshell/compare/v1.4.6...v1.4.7) (2023-08-16)
+
+
+### Bug Fixes
+
+* clean assets ([#113](https://github.com/ghoullier/fp-nutshell/issues/113)) ([7129680](https://github.com/ghoullier/fp-nutshell/commit/7129680137aa26af1fcff42b59245eec5a50aeb1))
+* update cache assets ([#112](https://github.com/ghoullier/fp-nutshell/issues/112)) ([a3c835d](https://github.com/ghoullier/fp-nutshell/commit/a3c835d9beaa54229a0a2989b34ab2baf66fb8cf))
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @typescript-eslint/eslint-plugin from 6.3.0 to 6.4.0 ([#110](https://github.com/ghoullier/fp-nutshell/issues/110)) ([421cb78](https://github.com/ghoullier/fp-nutshell/commit/421cb78a0f848d752d9ea68b21111241a71b8688))
+* **deps-dev:** bump @typescript-eslint/parser from 6.3.0 to 6.4.0 ([#109](https://github.com/ghoullier/fp-nutshell/issues/109)) ([20406f2](https://github.com/ghoullier/fp-nutshell/commit/20406f2dd6ecb43436fabbcb569e7d3a941c8f19))
+
 ## [1.4.6](https://github.com/ghoullier/fp-nutshell/compare/v1.4.5...v1.4.6) (2023-08-11)
 
 
