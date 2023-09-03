@@ -24,7 +24,7 @@
     "./package.json": "./package.json"
   },
   "devDependencies": {
-    "@arethetypeswrong/cli": "0.8.0",
+    "@arethetypeswrong/cli": "0.9.0",
     "@tsconfig/strictest": "2.0.2",
     "@typescript-eslint/eslint-plugin": "6.5.0",
     "@typescript-eslint/parser": "6.5.0",
