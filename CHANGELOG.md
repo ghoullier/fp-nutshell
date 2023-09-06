@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.4.9](https://github.com/ghoullier/fp-nutshell/compare/v1.4.8...v1.4.9) (2023-09-06)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @arethetypeswrong/cli from 0.8.0 to 0.9.0 ([#125](https://github.com/ghoullier/fp-nutshell/issues/125)) ([59e7e32](https://github.com/ghoullier/fp-nutshell/commit/59e7e32dec6151845598954d95d397d9b9af5de2))
+* **deps-dev:** bump @arethetypeswrong/cli from 0.9.0 to 0.10.1 ([#128](https://github.com/ghoullier/fp-nutshell/issues/128)) ([6e6d4bf](https://github.com/ghoullier/fp-nutshell/commit/6e6d4bf91a9fc66e2da6022b866bf876814647d3))
+* **deps-dev:** bump @tsconfig/strictest from 2.0.1 to 2.0.2 ([#124](https://github.com/ghoullier/fp-nutshell/issues/124)) ([6084376](https://github.com/ghoullier/fp-nutshell/commit/6084376158efeed6ccbf7b43dd38d31fc401e783))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin from 6.4.1 to 6.5.0 ([#123](https://github.com/ghoullier/fp-nutshell/issues/123)) ([d973d39](https://github.com/ghoullier/fp-nutshell/commit/d973d396d363f9e9e343bdb1e05443a711dc744b))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin from 6.5.0 to 6.6.0 ([#129](https://github.com/ghoullier/fp-nutshell/issues/129)) ([963800b](https://github.com/ghoullier/fp-nutshell/commit/963800b63b1bebbfc13d9691ded309ad70b7693c))
+* **deps-dev:** bump @typescript-eslint/parser from 6.4.1 to 6.5.0 ([#122](https://github.com/ghoullier/fp-nutshell/issues/122)) ([3e1cd5c](https://github.com/ghoullier/fp-nutshell/commit/3e1cd5c9f22b2d9b75a96cd513b4aadcdf8e53c9))
+* **deps-dev:** bump @typescript-eslint/parser from 6.5.0 to 6.6.0 ([#127](https://github.com/ghoullier/fp-nutshell/issues/127)) ([4d92ba4](https://github.com/ghoullier/fp-nutshell/commit/4d92ba4bf2bf37645cca4df703bdd3d1be1ee52e))
+
 ## [1.4.8](https://github.com/ghoullier/fp-nutshell/compare/v1.4.7...v1.4.8) (2023-08-26)
 
 
