@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.10](https://github.com/ghoullier/fp-nutshell/compare/v1.4.9...v1.4.10) (2023-09-09)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump bun-types from 0.8.1 to 1.0.1 ([#130](https://github.com/ghoullier/fp-nutshell/issues/130)) ([260845b](https://github.com/ghoullier/fp-nutshell/commit/260845bbd57f5b725439c3a8c5d1c9dad7141687))
+
 ## [1.4.9](https://github.com/ghoullier/fp-nutshell/compare/v1.4.8...v1.4.9) (2023-09-06)
 
 
