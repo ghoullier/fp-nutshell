@@ -1,0 +1,17 @@
+on:
+  pull_request:
+    branches: [main]
+    types: [assigned, opened, synchronize, reopened, labeled]
+
+name: Test Pull Request
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: echo "{}" > test.json
+      - run: cat test.json
+      - uses: ./.github/actions/test-shared
+        with:
+          file: test.json

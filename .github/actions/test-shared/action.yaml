@@ -1,0 +1,19 @@
+name: Test Action
+
+description: Test shared action limits
+
+inputs:
+  file:
+    description: File to check
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: |
+        ls ./
+    - shell: bash
+      run: |
+        cat ${{ inputs.file }}
+      
