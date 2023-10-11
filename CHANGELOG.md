@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.16](https://github.com/ghoullier/fp-nutshell/compare/v1.4.15...v1.4.16) (2023-10-11)
+
+
+### Miscellaneous
+
+* add publint checks ([#156](https://github.com/ghoullier/fp-nutshell/issues/156)) ([d328f3f](https://github.com/ghoullier/fp-nutshell/commit/d328f3f0693203f0033023f9d162694b87fe97b6))
+* improve gh actions ([#158](https://github.com/ghoullier/fp-nutshell/issues/158)) ([82c15b3](https://github.com/ghoullier/fp-nutshell/commit/82c15b3d747f0afe54751fc2255af4a2875dd4eb))
+
 ## [1.4.15](https://github.com/ghoullier/fp-nutshell/compare/v1.4.14...v1.4.15) (2023-10-09)
 
 
