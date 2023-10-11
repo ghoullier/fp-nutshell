@@ -13,34 +13,25 @@ jobs:
   setup:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: ./.github/actions/setup-bun
-      - run: bun --bun run build
+      - uses: ./.github/actions/build
       - run: bun test
       - run: bun run lint
-      - name: Store build cache
-        uses: actions/cache@v3
-        with:
-          key: ${{ runner.os }}-build-${{ hashFiles('./dist/**') }}
-          path: |
-            ./dist/**
 
   canary-release:
     runs-on: ubuntu-latest
     environment: canary
     needs: [setup]
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: ./.github/actions/setup-bun
       - uses: actions/setup-node@v3
         with:
           registry-url: "https://npm.pkg.github.com"
-      - name: Restore build cache
-        uses: actions/cache@v3
+      - uses: ./.github/actions/cache
         with:
-          key: ${{ runner.os }}-build-${{ hashFiles('./dist/**') }}
-          path: |
-            ./dist/**
+          scope: build
       - run: npm version prerelease --preid=canary.$(git rev-parse --short HEAD) --no-git-tag-version
       - run: npm publish --tag canary
         env:
