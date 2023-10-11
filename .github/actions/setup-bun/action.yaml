@@ -3,11 +3,9 @@ name: Setup Bun
 runs:
   using: "composite"
   steps: 
-    - uses: actions/cache@v3
+    - uses: ./.github/actions/cache
       with:
-        key: ${{ runner.os }}-dependencies-${{ hashFiles('./bun.lockb') }}
-        path: |
-          ./node_modules/**
+        scope: dependencies
     - uses: oven-sh/setup-bun@v1
       with:
         bun-version: latest

@@ -15,13 +15,10 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event.pull_request.user.login == 'dependabot[bot]'
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.ref }}
-      - uses: oven-sh/setup-bun@v1
-        with:
-          bun-version: latest
-      - run: bun install
+      - uses: ./.github/actions/setup-bun
       - name: Set @github-actions[bot] as committer
         run: |
           git config --global user.name 'github-actions[bot]'
