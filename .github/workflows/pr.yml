@@ -15,9 +15,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: ./.github/actions/setup-bun
+      - run: bun --bun run build
       - run: bun test
       - run: bun run lint
-      - run: bun --bun run build
       - name: Store build cache
         uses: actions/cache@v3
         with:
