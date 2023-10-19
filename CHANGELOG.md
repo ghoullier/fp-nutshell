@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.18](https://github.com/ghoullier/fp-nutshell/compare/v1.4.17...v1.4.18) (2023-10-19)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @arethetypeswrong/cli from 0.12.1 to 0.12.2 ([#162](https://github.com/ghoullier/fp-nutshell/issues/162)) ([c580530](https://github.com/ghoullier/fp-nutshell/commit/c5805300df93a2cbc8901594a1f286f2ee3c6295))
+* **deps-dev:** bump the eslint group with 2 updates ([#161](https://github.com/ghoullier/fp-nutshell/issues/161)) ([58ae492](https://github.com/ghoullier/fp-nutshell/commit/58ae492dde7dcf1b1e5e1983513ec7383d07f6a3))
+
 ## [1.4.17](https://github.com/ghoullier/fp-nutshell/compare/v1.4.16...v1.4.17) (2023-10-13)
 
 
