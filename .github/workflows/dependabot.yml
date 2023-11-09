@@ -8,12 +8,13 @@ on:
 name: Dependabot Bun Support
 
 permissions:
-  contents: write # to commit code (actions/checkout)
+  contents: write
+  pull-requests: write
 
 jobs:
   dependabot:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.user.login == 'dependabot[bot]'
+    if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -28,3 +29,8 @@ jobs:
       - run: |
           git commit -m "chore(deps-dev): bump bun lockfile"
       - run: git push
+      - name: Approve a PR
+        run: gh pr review --approve "$PR_URL"
+        env:
+          PR_URL: ${{github.event.pull_request.html_url}}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
