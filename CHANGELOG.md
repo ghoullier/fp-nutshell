@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.4.20](https://github.com/ghoullier/fp-nutshell/compare/v1.4.19...v1.4.20) (2023-11-09)
+
+
+### Miscellaneous
+
+* clean useless tsconfig options ([#181](https://github.com/ghoullier/fp-nutshell/issues/181)) ([f2c8e57](https://github.com/ghoullier/fp-nutshell/commit/f2c8e57e95af820beab638c8dc329fba3240bca3))
+* **deps-dev:** bump bun-types from 1.0.10 to 1.0.11 ([#179](https://github.com/ghoullier/fp-nutshell/issues/179)) ([1fbfac1](https://github.com/ghoullier/fp-nutshell/commit/1fbfac12fb52ed8fdf073a45106ad4e18c605d32))
+* **deps-dev:** bump bun-types from 1.0.9 to 1.0.10 ([#174](https://github.com/ghoullier/fp-nutshell/issues/174)) ([ff2b44a](https://github.com/ghoullier/fp-nutshell/commit/ff2b44ad7a4e524af202ecb38b9a539b7766831b))
+* **deps-dev:** bump the eslint group with 3 updates ([#177](https://github.com/ghoullier/fp-nutshell/issues/177)) ([66adab7](https://github.com/ghoullier/fp-nutshell/commit/66adab79c2910bab02dddbb7a97255b5ea154b2e))
+* update workflow to allow auto merge ([#180](https://github.com/ghoullier/fp-nutshell/issues/180)) ([f2ad2d2](https://github.com/ghoullier/fp-nutshell/commit/f2ad2d2f9cc69986d6cc7cf310f14a8da3448407))
+
 ## [1.4.19](https://github.com/ghoullier/fp-nutshell/compare/v1.4.18...v1.4.19) (2023-11-05)
 
 
