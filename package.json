@@ -1,7 +1,7 @@
 {
   "name": "@ghoullier/fp-nutshell",
   "description": "Functional programming in a nutshell",
-  "version": "1.4.20",
+  "version": "1.4.21",
   "type": "module",
   "scripts": {
     "build:lib": "bun build --minify --outdir=dist src/index.ts",
