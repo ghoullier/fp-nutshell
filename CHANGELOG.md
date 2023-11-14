@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.21](https://github.com/ghoullier/fp-nutshell/compare/v1.4.20...v1.4.21) (2023-11-14)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump the eslint group with 2 updates ([#182](https://github.com/ghoullier/fp-nutshell/issues/182)) ([eacf110](https://github.com/ghoullier/fp-nutshell/commit/eacf110bcba10873f73c33a5b5fac5f235121d66))
+* refine ci ([#184](https://github.com/ghoullier/fp-nutshell/issues/184)) ([2579d72](https://github.com/ghoullier/fp-nutshell/commit/2579d72f57a165c3e47a36beb837bd8ed71afa00))
+
 ## [1.4.20](https://github.com/ghoullier/fp-nutshell/compare/v1.4.19...v1.4.20) (2023-11-09)
 
 
