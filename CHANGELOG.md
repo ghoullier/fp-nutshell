@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.23](https://github.com/ghoullier/fp-nutshell/compare/v1.4.22...v1.4.23) (2023-11-14)
+
+
+### Miscellaneous
+
+* bump devcontainer version ([#188](https://github.com/ghoullier/fp-nutshell/issues/188)) ([a184e09](https://github.com/ghoullier/fp-nutshell/commit/a184e09b4908ee7668368b9938b48875a130719c))
+
 ## [1.4.22](https://github.com/ghoullier/fp-nutshell/compare/v1.4.21...v1.4.22) (2023-11-14)
 
 
