@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.22](https://github.com/ghoullier/fp-nutshell/compare/v1.4.21...v1.4.22) (2023-11-14)
+
+
+### Miscellaneous
+
+* **deps:** pin `publint` dependency ([#185](https://github.com/ghoullier/fp-nutshell/issues/185)) ([f657773](https://github.com/ghoullier/fp-nutshell/commit/f6577738e61b2744b165d54b30b2bbdd7632a9ac))
+* improve ci checks ([#187](https://github.com/ghoullier/fp-nutshell/issues/187)) ([11136f9](https://github.com/ghoullier/fp-nutshell/commit/11136f9431324cbedb11370791bf8a43ef87e6ab))
+
 ## [1.4.21](https://github.com/ghoullier/fp-nutshell/compare/v1.4.20...v1.4.21) (2023-11-14)
 
 
