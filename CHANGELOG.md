@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.0](https://github.com/ghoullier/fp-nutshell/compare/v1.4.23...v1.5.0) (2023-11-15)
+
+
+### Features
+
+* add `prevent-uncommit-changes` action ([#192](https://github.com/ghoullier/fp-nutshell/issues/192)) ([ee14546](https://github.com/ghoullier/fp-nutshell/commit/ee14546c647194602c775f6fb4c6cc9378d2ff78))
+
+
+### Miscellaneous
+
+* test top level exports ([#190](https://github.com/ghoullier/fp-nutshell/issues/190)) ([dfe1375](https://github.com/ghoullier/fp-nutshell/commit/dfe13751c9cb8b7f19a0c74a9a4133187e8083b5))
+
 ## [1.4.23](https://github.com/ghoullier/fp-nutshell/compare/v1.4.22...v1.4.23) (2023-11-14)
 
 
