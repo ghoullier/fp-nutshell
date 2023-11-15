@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/ghoullier/fp-nutshell/compare/v1.5.0...v1.5.1) (2023-11-15)
+
+
+### Miscellaneous
+
+* **dev-deps:** pin `bun-types` dependency ([#193](https://github.com/ghoullier/fp-nutshell/issues/193)) ([de2a317](https://github.com/ghoullier/fp-nutshell/commit/de2a317e93363caddd2f560abce2f9d4a1f33b29))
+
 ## [1.5.0](https://github.com/ghoullier/fp-nutshell/compare/v1.4.23...v1.5.0) (2023-11-15)
 
 
