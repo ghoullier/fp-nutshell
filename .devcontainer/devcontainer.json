@@ -11,7 +11,8 @@
 
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
-        "github.vscode-github-actions"
+        "github.vscode-github-actions",
+        "oven.bun-vscode"
       ]
     }
   },

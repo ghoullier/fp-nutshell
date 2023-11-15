@@ -1,6 +1,10 @@
 on: pull_request_target
 
-name: Dependabot Bun Support
+name: Dependabot
+
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
 
 permissions:
   contents: write

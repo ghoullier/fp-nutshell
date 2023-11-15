@@ -7,6 +7,10 @@ on:
 
 name: CI
 
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: read # to fetch code (actions/checkout)
   packages: write # to publish packages (npm publish)
