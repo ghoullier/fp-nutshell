@@ -11,7 +11,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  dependabot:
+  dependabot-update-lockfile:
     runs-on: ubuntu-latest
     if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
@@ -28,6 +28,27 @@ jobs:
       - run: |
           git commit -m "chore(deps-dev): bump bun lockfile"
       - run: git push
+  dependabot-build:
+    runs-on: ubuntu-latest
+    if: ${{ github.actor == 'dependabot[bot]' }}
+    needs: [dependabot-update-lockfile]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+      - uses: ./.github/actions/setup-bun
+      - uses: ./.github/actions/build
+      - uses: ./.github/actions/prevent-uncommit-changes
+      - run: bun test
+      - run: bun run lint
+  dependabot-automerge:
+    runs-on: ubuntu-latest
+    if: ${{ github.actor == 'dependabot[bot]' }}
+    needs: [dependabot-build]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
       - name: Dependabot metadata
         id: metadata
         uses: dependabot/fetch-metadata@v1
