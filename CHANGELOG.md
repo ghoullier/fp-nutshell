@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.5.2](https://github.com/ghoullier/fp-nutshell/compare/v1.5.1...v1.5.2) (2023-11-15)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump publint from 0.2.4 to 0.2.5 ([#195](https://github.com/ghoullier/fp-nutshell/issues/195)) ([d0c6bff](https://github.com/ghoullier/fp-nutshell/commit/d0c6bff391e10f8c8d227be0af533a994eb2b143))
+* improve dependabot workflow ([#197](https://github.com/ghoullier/fp-nutshell/issues/197)) ([bdf44f8](https://github.com/ghoullier/fp-nutshell/commit/bdf44f838802caf244e8e8cfa371df600f6205d3))
+
 ## [1.5.1](https://github.com/ghoullier/fp-nutshell/compare/v1.5.0...v1.5.1) (2023-11-15)
 
 
