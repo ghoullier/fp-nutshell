@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.5.3](https://github.com/ghoullier/fp-nutshell/compare/v1.5.2...v1.5.3) (2023-11-16)
+
+
+### Miscellaneous
+
+* change `GITHUB_TOKEN` by a `PAT` ([#201](https://github.com/ghoullier/fp-nutshell/issues/201)) ([c1c41fd](https://github.com/ghoullier/fp-nutshell/commit/c1c41fdd4fd8fb02df6b34c43cf4133d1891e0eb))
+* change dependabot automerge method ([#199](https://github.com/ghoullier/fp-nutshell/issues/199)) ([0253983](https://github.com/ghoullier/fp-nutshell/commit/0253983f0060eee34465fd652dc0a26fff6ea49d))
+* **deps-dev:** bump bun-types from 1.0.11 to 1.0.12 ([#198](https://github.com/ghoullier/fp-nutshell/issues/198)) ([b0a47f1](https://github.com/ghoullier/fp-nutshell/commit/b0a47f117142d9e00cd403921f7561919a83c97c))
+
 ## [1.5.2](https://github.com/ghoullier/fp-nutshell/compare/v1.5.1...v1.5.2) (2023-11-15)
 
 
