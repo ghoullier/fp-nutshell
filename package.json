@@ -27,8 +27,8 @@
   "devDependencies": {
     "@arethetypeswrong/cli": "0.13.1",
     "@tsconfig/strictest": "2.0.2",
-    "@typescript-eslint/eslint-plugin": "6.12.0",
-    "@typescript-eslint/parser": "6.12.0",
+    "@typescript-eslint/eslint-plugin": "6.13.0",
+    "@typescript-eslint/parser": "6.13.0",
     "bun-types": "1.0.14",
     "eslint": "8.54.0",
     "publint": "0.2.5",
