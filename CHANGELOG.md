@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.5](https://github.com/ghoullier/fp-nutshell/compare/v1.5.4...v1.5.5) (2023-11-28)
+
+
+### Miscellaneous
+
+* add vscode settings ([#207](https://github.com/ghoullier/fp-nutshell/issues/207)) ([83b1f21](https://github.com/ghoullier/fp-nutshell/commit/83b1f211554a2f3bbb2ee8c0ed21dc288c6dd34f))
+* **deps-dev:** bump @arethetypeswrong/cli from 0.13.1 to 0.13.2 ([#211](https://github.com/ghoullier/fp-nutshell/issues/211)) ([5f102a5](https://github.com/ghoullier/fp-nutshell/commit/5f102a55ba9d86a9530f03db2221900b7782f154))
+* **deps-dev:** bump bun-types from 1.0.13 to 1.0.14 ([#209](https://github.com/ghoullier/fp-nutshell/issues/209)) ([aacb9ca](https://github.com/ghoullier/fp-nutshell/commit/aacb9cab5140e6021fac6428cacff9cbef2f0a7f))
+* **deps-dev:** bump the eslint group with 2 updates ([#212](https://github.com/ghoullier/fp-nutshell/issues/212)) ([a83ad3a](https://github.com/ghoullier/fp-nutshell/commit/a83ad3a2fda9cdc17d451aa6229251a67e58387d))
+* **deps-dev:** bump typescript from 5.2.2 to 5.3.2 ([#205](https://github.com/ghoullier/fp-nutshell/issues/205)) ([4e0a8bb](https://github.com/ghoullier/fp-nutshell/commit/4e0a8bb34f4ab361d7ee57efa18503b42b757855))
+* update vscode settings ([#208](https://github.com/ghoullier/fp-nutshell/issues/208)) ([25517a9](https://github.com/ghoullier/fp-nutshell/commit/25517a91f3aa54bae763b3dec873e62e7748ad86))
+
 ## [1.5.4](https://github.com/ghoullier/fp-nutshell/compare/v1.5.3...v1.5.4) (2023-11-20)
 
 
