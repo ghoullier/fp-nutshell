@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.7](https://github.com/ghoullier/fp-nutshell/compare/v1.5.6...v1.5.7) (2023-12-07)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump typescript from 5.3.2 to 5.3.3 ([#218](https://github.com/ghoullier/fp-nutshell/issues/218)) ([c6b8470](https://github.com/ghoullier/fp-nutshell/commit/c6b84708dd49139c990f8f8bb61e3b696d82665a))
+
 ## [1.5.6](https://github.com/ghoullier/fp-nutshell/compare/v1.5.5...v1.5.6) (2023-12-04)
 
 
