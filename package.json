@@ -1,7 +1,7 @@
 {
   "name": "@ghoullier/fp-nutshell",
   "description": "Functional programming in a nutshell",
-  "version": "1.5.7",
+  "version": "1.5.8",
   "type": "module",
   "scripts": {
     "build:lib": "bun build --minify --outdir=dist src/index.ts",
@@ -54,7 +54,9 @@
     "root": true,
     "rules": {
       "@typescript-eslint/no-empty-interface": "off",
-      "@typescript-eslint/explicit-function-return-type": ["error"]
+      "@typescript-eslint/explicit-function-return-type": [
+        "error"
+      ]
     }
   }
 }
