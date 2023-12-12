@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.5.8](https://github.com/ghoullier/fp-nutshell/compare/v1.5.7...v1.5.8) (2023-12-12)
+
+
+### Miscellaneous
+
+* add `pull_request_review` trigger ([#227](https://github.com/ghoullier/fp-nutshell/issues/227)) ([d596555](https://github.com/ghoullier/fp-nutshell/commit/d5965553f7514ceb604762bc8318e01e1a080be4))
+* **deps-dev:** bump bun-types from 1.0.15 to 1.0.16 ([#221](https://github.com/ghoullier/fp-nutshell/issues/221)) ([fd5f195](https://github.com/ghoullier/fp-nutshell/commit/fd5f195fbb471b5e5e6662a69621943fcbe67e74))
+* **deps-dev:** bump bun-types from 1.0.16 to 1.0.17 ([#224](https://github.com/ghoullier/fp-nutshell/issues/224)) ([2f6b62a](https://github.com/ghoullier/fp-nutshell/commit/2f6b62aca49367442e87182e51d440bf5ee09d35))
+* **deps-dev:** bump the eslint group with 2 updates ([#220](https://github.com/ghoullier/fp-nutshell/issues/220)) ([15fac17](https://github.com/ghoullier/fp-nutshell/commit/15fac1721f3edbebc94856dd4ea6a0749e75d29c))
+* simplify gitignore file ([#226](https://github.com/ghoullier/fp-nutshell/issues/226)) ([2ba2e30](https://github.com/ghoullier/fp-nutshell/commit/2ba2e302388758e043f06e1f3eb83108de470075))
+* stricter eslint config ([#223](https://github.com/ghoullier/fp-nutshell/issues/223)) ([848f917](https://github.com/ghoullier/fp-nutshell/commit/848f917f43ee7500d287e8e3df601bc24736354f))
+* uniformize job names ([#225](https://github.com/ghoullier/fp-nutshell/issues/225)) ([3c7506c](https://github.com/ghoullier/fp-nutshell/commit/3c7506c21ef42efdab835588ac590b89e6eeff87))
+
 ## [1.5.7](https://github.com/ghoullier/fp-nutshell/compare/v1.5.6...v1.5.7) (2023-12-07)
 
 
