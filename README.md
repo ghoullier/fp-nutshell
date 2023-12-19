@@ -1,7 +1,7 @@
 # @ghoullier/fp-nutshell
 
-[![CI](./actions/workflows/ci.yml/badge.svg)](./actions/workflows/ci.yml)
-[![Semantic Release](./actions/workflows/semantic-release.yml/badge.svg)](./actions/workflows/semantic-release.yml)
+[![CI](https://github.com/ghoullier/fp-nutshell//actions/workflows/ci.yml/badge.svg)](https://github.com/ghoullier/fp-nutshell//actions/workflows/ci.yml)
+[![Semantic Release](https://github.com/ghoullier/fp-nutshell//actions/workflows/semantic-release.yml/badge.svg)](https://github.com/ghoullier/fp-nutshell//actions/workflows/semantic-release.yml)
 
 > Just a playground around functional programming stuff
 
