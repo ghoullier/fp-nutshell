@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.10](https://github.com/ghoullier/fp-nutshell/compare/v1.5.9...v1.5.10) (2023-12-19)
+
+
+### Bug Fixes
+
+* update status badge path ([#235](https://github.com/ghoullier/fp-nutshell/issues/235)) ([cad37ab](https://github.com/ghoullier/fp-nutshell/commit/cad37ab00bd8b6a5dd42c351a5aedbc1ee608590))
+
+
+### Miscellaneous
+
+* add status badge ([#233](https://github.com/ghoullier/fp-nutshell/issues/233)) ([81a7a99](https://github.com/ghoullier/fp-nutshell/commit/81a7a990decbaab573f7f826ba006407d800e072))
+
 ## [1.5.9](https://github.com/ghoullier/fp-nutshell/compare/v1.5.8...v1.5.9) (2023-12-19)
 
 
