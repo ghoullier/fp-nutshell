@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.5.9](https://github.com/ghoullier/fp-nutshell/compare/v1.5.8...v1.5.9) (2023-12-19)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @arethetypeswrong/cli from 0.13.3 to 0.13.4 ([#232](https://github.com/ghoullier/fp-nutshell/issues/232)) ([87ddd0a](https://github.com/ghoullier/fp-nutshell/commit/87ddd0a1cbaf1613f839365fc74302501f4ef229))
+* **deps-dev:** bump bun-types from 1.0.17 to 1.0.18 ([#228](https://github.com/ghoullier/fp-nutshell/issues/228)) ([79ac64c](https://github.com/ghoullier/fp-nutshell/commit/79ac64c0d9fbb8091b19b4fb82175168521e3c22))
+* **deps-dev:** bump the eslint group with 1 update ([#230](https://github.com/ghoullier/fp-nutshell/issues/230)) ([bcb7bda](https://github.com/ghoullier/fp-nutshell/commit/bcb7bda1ca7bb22d30c3f6335148fc8b2509605d))
+* **deps-dev:** bump the eslint group with 2 updates ([#231](https://github.com/ghoullier/fp-nutshell/issues/231)) ([d85bc0c](https://github.com/ghoullier/fp-nutshell/commit/d85bc0c975cb4c1bed68bd78abe3566cb3339164))
+
 ## [1.5.8](https://github.com/ghoullier/fp-nutshell/compare/v1.5.7...v1.5.8) (2023-12-12)
 
 
