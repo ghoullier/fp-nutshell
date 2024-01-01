@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.5.12](https://github.com/ghoullier/fp-nutshell/compare/v1.5.11...v1.5.12) (2024-01-01)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump the eslint group with 2 updates ([#241](https://github.com/ghoullier/fp-nutshell/issues/241)) ([7ef72de](https://github.com/ghoullier/fp-nutshell/commit/7ef72de634ed6cf9f2579e9ca543824efe00529f))
+* **deps-dev:** bump the eslint group with 2 updates ([#243](https://github.com/ghoullier/fp-nutshell/issues/243)) ([b6ff938](https://github.com/ghoullier/fp-nutshell/commit/b6ff93873604e5a37f12628f4ba434c16eb1015f))
+
 ## [1.5.11](https://github.com/ghoullier/fp-nutshell/compare/v1.5.10...v1.5.11) (2023-12-25)
 
 
