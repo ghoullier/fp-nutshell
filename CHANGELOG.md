@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.5.14](https://github.com/ghoullier/fp-nutshell/compare/v1.5.13...v1.5.14) (2024-01-10)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump bun-types from 1.0.21 to 1.0.22 ([#249](https://github.com/ghoullier/fp-nutshell/issues/249)) ([0fcd6d3](https://github.com/ghoullier/fp-nutshell/commit/0fcd6d3e5f09586048cff6ae3fdb39997891e562))
+* **deps-dev:** bump the eslint group with 2 updates ([#246](https://github.com/ghoullier/fp-nutshell/issues/246)) ([015d12a](https://github.com/ghoullier/fp-nutshell/commit/015d12a64bed6fff8c196916d6be9c58a8389268))
+* **deps-dev:** bump the eslint group with 2 updates ([#248](https://github.com/ghoullier/fp-nutshell/issues/248)) ([62c5b5d](https://github.com/ghoullier/fp-nutshell/commit/62c5b5d0e84e849e1331a9cc385f145e2e536d9a))
+
 ## [1.5.13](https://github.com/ghoullier/fp-nutshell/compare/v1.5.12...v1.5.13) (2024-01-02)
 
 
