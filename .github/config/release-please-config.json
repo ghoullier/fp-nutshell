@@ -19,5 +19,7 @@
       "hidden": false
     }
   ],
-  "packages": {}
+  "packages": {
+    ".": {}
+  }
 }
