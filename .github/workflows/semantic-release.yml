@@ -21,7 +21,7 @@ jobs:
         id: release
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          config-file: .github/config/release-please-config.json
+          manifest-file: .github/config/.release-please-config.json
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v1
         with:
