@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/ghoullier/fp-nutshell/compare/v1.0.0...v1.0.1) (2024-02-09)
+
+
+### Miscellaneous
+
+* add author ([#278](https://github.com/ghoullier/fp-nutshell/issues/278)) ([7226557](https://github.com/ghoullier/fp-nutshell/commit/72265579b23cdbbdb2aaac2b80f3e7137062f875))
+
 ## 1.0.0 (2024-02-09)
 
 
