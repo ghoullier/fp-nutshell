@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.1](https://github.com/ghoullier/fp-nutshell/compare/v1.1.0...v1.1.1) (2024-02-10)
+
+
+### Miscellaneous
+
+* add debug ([#282](https://github.com/ghoullier/fp-nutshell/issues/282)) ([af0dfd7](https://github.com/ghoullier/fp-nutshell/commit/af0dfd7d7db80c03e08498fbbf94cb450e305110))
+* add fetch depth 0 ([#283](https://github.com/ghoullier/fp-nutshell/issues/283)) ([c7c5337](https://github.com/ghoullier/fp-nutshell/commit/c7c533753fe0cb4980475590e79d4af2f465857b))
+* add fetch tags ([#285](https://github.com/ghoullier/fp-nutshell/issues/285)) ([a8f242c](https://github.com/ghoullier/fp-nutshell/commit/a8f242ccf264f46e906c8193c73a267d46397950))
+
 ## [1.1.0](https://github.com/ghoullier/fp-nutshell/compare/v1.0.1...v1.1.0) (2024-02-10)
 
 
