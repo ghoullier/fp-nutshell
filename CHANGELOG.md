@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/ghoullier/fp-nutshell/compare/v1.0.1...v1.1.0) (2024-02-10)
+
+
+### Features
+
+* update bun types ([#280](https://github.com/ghoullier/fp-nutshell/issues/280)) ([e92b7ef](https://github.com/ghoullier/fp-nutshell/commit/e92b7ef63fabf3f31989680d2d2b0074e205b512))
+
 ## [1.0.1](https://github.com/ghoullier/fp-nutshell/compare/v1.0.0...v1.0.1) (2024-02-09)
 
 
