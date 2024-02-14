@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/ghoullier/fp-nutshell/compare/v1.1.2...v1.1.3) (2024-02-14)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @arethetypeswrong/cli from 0.13.9 to 0.13.10 ([#289](https://github.com/ghoullier/fp-nutshell/issues/289)) ([df70d96](https://github.com/ghoullier/fp-nutshell/commit/df70d96226d3eef9b631296f970dac65a3f731eb))
+
 ## [1.1.2](https://github.com/ghoullier/fp-nutshell/compare/v1.1.1...v1.1.2) (2024-02-14)
 
 
