@@ -1,0 +1,4 @@
+{
+  "name": "@ghoullier/fp-nutshell",
+  "exports": "./src/index.ts"
+}

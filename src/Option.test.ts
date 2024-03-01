@@ -1,6 +1,6 @@
 import { expect, test, mock, describe } from "bun:test";
 
-import { Option } from "./Option.js";
+import { Option } from "./Option.ts";
 
 describe("Option", () => {
   test("should be true when the Option is Some", () => {

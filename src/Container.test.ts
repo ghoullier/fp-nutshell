@@ -1,6 +1,6 @@
 import { describe, expect, test } from "bun:test";
 
-import { Container } from "./Container.js";
+import { Container } from "./Container.ts";
 
 describe("Container", () => {
   test("should get the internal container value", () => {

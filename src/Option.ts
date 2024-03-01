@@ -1,5 +1,5 @@
-import { Container } from "./Container.js";
-import type { Mapper } from "./Mapper.js";
+import { Container } from "./Container.ts";
+import type { Mapper } from "./Mapper.ts";
 
 interface Some<Value> {
   value: Value;
@@ -9,7 +9,7 @@ interface None {}
 
 type $Option<Value> = Some<Value> | None;
 
-export class Option<const Value> extends Container<$Option<Value>>{
+export class Option<const Value> extends Container<$Option<Value>> {
   static Some<const Value>(value: Value): Option<Value> {
     return new Option({ value });
   }
