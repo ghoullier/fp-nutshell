@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.2.0](https://github.com/ghoullier/fp-nutshell/compare/v1.1.5...v1.2.0) (2024-03-01)
+
+
+### Features
+
+* add jsr.io support ([#303](https://github.com/ghoullier/fp-nutshell/issues/303)) ([f1eadbf](https://github.com/ghoullier/fp-nutshell/commit/f1eadbf9c30d87d5c9333fb058ff10e105df680e))
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @arethetypeswrong/cli from 0.14.1 to 0.15.0 ([#301](https://github.com/ghoullier/fp-nutshell/issues/301)) ([2e14859](https://github.com/ghoullier/fp-nutshell/commit/2e14859c0b8e45b50e05f5c431e94abc4a355c6c))
+* **deps-dev:** bump the eslint group with 3 updates ([#299](https://github.com/ghoullier/fp-nutshell/issues/299)) ([bc8c2cf](https://github.com/ghoullier/fp-nutshell/commit/bc8c2cf8b8dc878b1ea59ac0e60a6668cd51afc4))
+
 ## [1.1.5](https://github.com/ghoullier/fp-nutshell/compare/v1.1.4...v1.1.5) (2024-02-23)
 
 
