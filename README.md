@@ -24,3 +24,11 @@ bun test
 ```sh
 bun --bun run build
 ```
+
+## How to use this project?
+
+Using `bun`
+
+```shell
+bunx jsr add @ghoullier/fp-nutshell
+```
