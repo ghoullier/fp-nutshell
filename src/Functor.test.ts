@@ -1,6 +1,6 @@
 import { describe, expect, test } from "bun:test";
 
-import { Functor } from "./Functor.js";
+import { Functor } from "./Functor.ts";
 
 describe("Functor", () => {
   test("should map value without change the original reference", () => {

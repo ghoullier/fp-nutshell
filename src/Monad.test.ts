@@ -1,6 +1,6 @@
 import { describe, expect, test } from "bun:test";
 
-import { Monad } from "./Monad.js";
+import { Monad } from "./Monad.ts";
 
 describe("Monad", () => {
   test("should map value without change the original reference", () => {

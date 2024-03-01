@@ -1,6 +1,6 @@
 import { describe, expect, test } from "bun:test";
 
-import { Result } from "./Result.js";
+import { Result } from "./Result.ts";
 
 describe("Result", () => {
   test("should map value without change the original reference", () => {
