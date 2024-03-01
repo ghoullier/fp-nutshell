@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/ghoullier/fp-nutshell/compare/v1.2.0...v1.2.1) (2024-03-01)
+
+
+### Miscellaneous
+
+* update install with bun ([#304](https://github.com/ghoullier/fp-nutshell/issues/304)) ([925e891](https://github.com/ghoullier/fp-nutshell/commit/925e891d38c84a24290132a58ee57000e85cc64e))
+
 ## [1.2.0](https://github.com/ghoullier/fp-nutshell/compare/v1.1.5...v1.2.0) (2024-03-01)
 
 
