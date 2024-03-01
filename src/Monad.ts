@@ -1,6 +1,6 @@
-import { Container } from "./Container.js";
+import { Container } from "./Container.ts";
 
-import type { Mapper } from "./Mapper.js";
+import type { Mapper } from "./Mapper.ts";
 
 export class Monad<const Value> extends Container<Value> {
   map<const Result>(mapper: Mapper<Value, Result>): Monad<Result> {

@@ -9,8 +9,9 @@
     "allowSyntheticDefaultImports": true,
     "declaration": true,
     "emitDeclarationOnly": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "allowImportingTsExtensions": true
   },
-  "include": ["src/**/*"],
+  "include": ["scripts/*", "src/**/*"],
   "exclude": ["node_modules", "dist"]
 }

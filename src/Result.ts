@@ -1,7 +1,7 @@
-import { Container } from "./Container.js";
-import { Option } from "./Option.js";
+import { Container } from "./Container.ts";
+import { Option } from "./Option.ts";
 
-import type { Mapper } from "./Mapper.js";
+import type { Mapper } from "./Mapper.ts";
 
 interface Failure<Error> {
   error: Error;
@@ -13,7 +13,9 @@ interface Success<Value> {
 
 type $Result<Value, Error> = Success<Value> | Failure<Error>;
 
-export class Result<const Value, const Error> extends Container<$Result<Value, Error>>{
+export class Result<const Value, const Error> extends Container<
+  $Result<Value, Error>
+> {
   static Ok<Value, Error>(value: Value): Result<Value, Error> {
     return new this({ value });
   }
