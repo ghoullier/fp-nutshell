@@ -13,6 +13,10 @@ interface Success<Value> {
 
 type $Result<Value, Error> = Success<Value> | Failure<Error>;
 
+/**
+ * A container for a value that may or may not exist.
+ * @extends Container
+ */
 export class Result<const Value, const Error> extends Container<
   $Result<Value, Error>
 > {
