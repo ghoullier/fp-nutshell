@@ -2,7 +2,7 @@
   "name": "@ghoullier/fp-nutshell",
   "description": "Functional programming in a nutshell",
   "author": "Grégory Houllier",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "type": "module",
   "scripts": {
     "build:lib": "bun build --minify --outdir=dist src/index.ts",
