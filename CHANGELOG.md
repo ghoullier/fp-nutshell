@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.3](https://github.com/ghoullier/fp-nutshell/compare/v1.2.2...v1.2.3) (2024-03-10)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump typescript from 5.3.3 to 5.4.2 ([#310](https://github.com/ghoullier/fp-nutshell/issues/310)) ([bacf85a](https://github.com/ghoullier/fp-nutshell/commit/bacf85a4bba8278a8363306d820841a30fe74657))
+* update jsr implementation ([#312](https://github.com/ghoullier/fp-nutshell/issues/312)) ([5297b5c](https://github.com/ghoullier/fp-nutshell/commit/5297b5ca41133b226a9f4ab2297f70b80cf5d635))
+
 ## [1.2.2](https://github.com/ghoullier/fp-nutshell/compare/v1.2.1...v1.2.2) (2024-03-07)
 
 
