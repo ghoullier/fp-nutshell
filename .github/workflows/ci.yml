@@ -49,4 +49,4 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - run: bun run ./scripts/prerelease.ts
-      - run: bunx jsr publish
+      - run: bunx jsr publish --allow-dirty
