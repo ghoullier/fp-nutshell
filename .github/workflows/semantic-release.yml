@@ -44,5 +44,5 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
       - run: |
           bun run ./scripts/prerelease.ts
-          bunx jsr publish
+          bunx jsr publish --allow-dirty
         if: ${{ steps.release.outputs.release_created }}
