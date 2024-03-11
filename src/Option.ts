@@ -5,7 +5,8 @@ interface Some<Value> {
   value: Value;
 }
 
-interface None {}
+// biome-ignore lint/complexity/noBannedTypes: <explanation>
+type None = {};
 
 type $Option<Value> = Some<Value> | None;
 

@@ -21,10 +21,10 @@ export class Result<const Value, const Error> extends Container<
   $Result<Value, Error>
 > {
   static Ok<Value, Error>(value: Value): Result<Value, Error> {
-    return new this({ value });
+    return new Result({ value });
   }
   static Error<Value, Error>(error: Error): Result<Value, Error> {
-    return new this({ error });
+    return new Result({ error });
   }
   isError(): boolean {
     return "error" in this.value;
@@ -42,7 +42,7 @@ export class Result<const Value, const Error> extends Container<
     return Result.Ok(mapper((this.value as Success<Value>).value));
   }
   flatMap<Output>(
-    mapper: Mapper<Value, Result<Output, Error>>
+    mapper: Mapper<Value, Result<Output, Error>>,
   ): Result<Output, Error> {
     if (this.isError()) {
       return Result.Error((this.value as Failure<Error>).error);
@@ -51,7 +51,7 @@ export class Result<const Value, const Error> extends Container<
   }
   match<Output>(
     resolve: Mapper<Value, Output>,
-    reject: Mapper<Error, Output>
+    reject: Mapper<Error, Output>,
   ): Output {
     if (this.isError()) {
       return reject((this.value as Failure<Error>).error);
