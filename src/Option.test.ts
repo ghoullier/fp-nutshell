@@ -1,4 +1,4 @@
-import { expect, test, mock, describe } from "bun:test";
+import { describe, expect, mock, test } from "bun:test";
 
 import { Option } from "./Option.ts";
 
@@ -31,7 +31,7 @@ describe("Option", () => {
     const mapper = mock((value) => `<div>${value}</div>`);
     const html = some.map(mapper);
     expect(html.isOk()).toBe(true);
-    expect(html.orElse(`fallback`)).toBe(`<div>content</div>`);
+    expect(html.orElse("fallback")).toBe("<div>content</div>");
     expect(mapper).toHaveBeenCalledTimes(1);
   });
 
@@ -40,7 +40,7 @@ describe("Option", () => {
     const mapper = mock((value) => Option.Some(`<div>${value}</div>`));
     const html = some.flatMap(mapper);
     expect(html.isOk()).toBe(true);
-    expect(html.orElse(`<div>fallback</div>`)).toBe(`<div>content</div>`);
+    expect(html.orElse("<div>fallback</div>")).toBe("<div>content</div>");
     expect(mapper).toHaveBeenCalledTimes(1);
   });
 });
