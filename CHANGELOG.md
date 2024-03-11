@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.2.4](https://github.com/ghoullier/fp-nutshell/compare/v1.2.3...v1.2.4) (2024-03-11)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @arethetypeswrong/cli from 0.15.0 to 0.15.1 ([#314](https://github.com/ghoullier/fp-nutshell/issues/314)) ([b397228](https://github.com/ghoullier/fp-nutshell/commit/b397228c8e01029dbfbd5c057a9fcbee95cb8136))
+* **deps-dev:** bump the eslint group with 2 updates ([#316](https://github.com/ghoullier/fp-nutshell/issues/316)) ([1f44f01](https://github.com/ghoullier/fp-nutshell/commit/1f44f0170bc004ebc6d311c5de7be188a48208aa))
+* migrate from `eslint` to `biome` ([#317](https://github.com/ghoullier/fp-nutshell/issues/317)) ([6bca19b](https://github.com/ghoullier/fp-nutshell/commit/6bca19b968261a12b4995530bb4d60e16edce5c3))
+
 ## [1.2.3](https://github.com/ghoullier/fp-nutshell/compare/v1.2.2...v1.2.3) (2024-03-10)
 
 
