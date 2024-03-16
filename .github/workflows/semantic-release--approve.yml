@@ -1,0 +1,17 @@
+on:
+  pull_request_target:
+    branches: [release-please--branches--main--components--fp-nutshell]
+    types: [synchronize]
+  
+name: Smantic Release Auto Approve
+  
+jobs:
+  autoapprove:
+    runs-on: ubuntu-latest
+    if: ${{ github.actor == 'github-actions[bot]' }}
+    steps:
+      - name: Enable auto-merge
+        run: gh pr merge --auto --squash "$PR_URL"
+        env:
+          PR_URL: ${{github.event.pull_request.html_url}}
+          GITHUB_TOKEN: ${{secrets.DEPENDABOT_AUTOMERGE_TOKEN}}
