@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.2.5](https://github.com/ghoullier/fp-nutshell/compare/v1.2.4...v1.2.5) (2024-03-21)
+
+
+### Miscellaneous
+
+* add auto approve semantic release ([#321](https://github.com/ghoullier/fp-nutshell/issues/321)) ([ad3ee1e](https://github.com/ghoullier/fp-nutshell/commit/ad3ee1e87c7ee8fb8ddef53c072e4bb279bb61cb))
+* **deps-dev:** bump @arethetypeswrong/cli from 0.15.1 to 0.15.2 ([#324](https://github.com/ghoullier/fp-nutshell/issues/324)) ([cb2dc3b](https://github.com/ghoullier/fp-nutshell/commit/cb2dc3b3f4facc8cb1fcd69b85162990fbf92922))
+* **deps-dev:** bump @biomejs/biome from 1.6.0 to 1.6.1 ([#318](https://github.com/ghoullier/fp-nutshell/issues/318)) ([6053563](https://github.com/ghoullier/fp-nutshell/commit/60535632d20018f320efe4b9f6f4749c957948e7))
+* **deps-dev:** bump @types/bun from 1.0.8 to 1.0.10 ([#325](https://github.com/ghoullier/fp-nutshell/issues/325)) ([47e5fdd](https://github.com/ghoullier/fp-nutshell/commit/47e5fddea7691f43b9d81e7d794cb8d5b824e355))
+* **deps-dev:** bump bun-types from 1.0.30 to 1.0.31 ([#320](https://github.com/ghoullier/fp-nutshell/issues/320)) ([010d313](https://github.com/ghoullier/fp-nutshell/commit/010d31317e9422930201afa053d0a398a2d95801))
+* **deps-dev:** bump bun-types from 1.0.31 to 1.0.33 ([#323](https://github.com/ghoullier/fp-nutshell/issues/323)) ([56de9e7](https://github.com/ghoullier/fp-nutshell/commit/56de9e7391a80ef6a6696da950bc85c806c42522))
+* **deps-dev:** bump typescript from 5.4.2 to 5.4.3 ([#326](https://github.com/ghoullier/fp-nutshell/issues/326)) ([e534bc9](https://github.com/ghoullier/fp-nutshell/commit/e534bc911d9f7c23fb0bc67b93b4ee72e010f85d))
+* update autoapprove semver pr ([#322](https://github.com/ghoullier/fp-nutshell/issues/322)) ([8477ea8](https://github.com/ghoullier/fp-nutshell/commit/8477ea86aa798081c12e314db14e4c23b78dd05f))
+
 ## [1.2.4](https://github.com/ghoullier/fp-nutshell/compare/v1.2.3...v1.2.4) (2024-03-11)
 
 
