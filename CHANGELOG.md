@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.7](https://github.com/ghoullier/fp-nutshell/compare/v1.2.6...v1.2.7) (2024-03-27)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @tsconfig/strictest from 2.0.4 to 2.0.5 ([#333](https://github.com/ghoullier/fp-nutshell/issues/333)) ([4ed5abc](https://github.com/ghoullier/fp-nutshell/commit/4ed5abc6bcf5182823f4af3232a825e687210499))
+
 ## [1.2.6](https://github.com/ghoullier/fp-nutshell/compare/v1.2.5...v1.2.6) (2024-03-26)
 
 
