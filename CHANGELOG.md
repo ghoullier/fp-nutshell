@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.10](https://github.com/ghoullier/fp-nutshell/compare/v1.2.9...v1.2.10) (2024-08-09)
+
+
+### Miscellaneous
+
+* **ci:** migrate `google-github-actions/release-please-action` to `googleapis/release-please-action` ([#386](https://github.com/ghoullier/fp-nutshell/issues/386)) ([0e7be88](https://github.com/ghoullier/fp-nutshell/commit/0e7be884fa8e8bc8ea82c09bc58c57da9003ec11))
+* **deps-dev:** bump @arethetypeswrong/cli from 0.15.3 to 0.15.4 ([#385](https://github.com/ghoullier/fp-nutshell/issues/385)) ([6a829b7](https://github.com/ghoullier/fp-nutshell/commit/6a829b79f920f9e6db59e716491230e65a3f5877))
+* **deps-dev:** bump bun-types from 1.1.20 to 1.1.21 ([#383](https://github.com/ghoullier/fp-nutshell/issues/383)) ([16ac7b6](https://github.com/ghoullier/fp-nutshell/commit/16ac7b6bdb5d11e1bff8028606ff6963841e129c))
+* **deps-dev:** bump bun-types from 1.1.21 to 1.1.22 ([#384](https://github.com/ghoullier/fp-nutshell/issues/384)) ([d85d456](https://github.com/ghoullier/fp-nutshell/commit/d85d4568295cfe58dda96576666c166c5df01faa))
+* **deps-dev:** bump publint from 0.2.8 to 0.2.9 ([#380](https://github.com/ghoullier/fp-nutshell/issues/380)) ([e987e44](https://github.com/ghoullier/fp-nutshell/commit/e987e4479a69ea7d4fb9dc664b0a2e19add3bb20))
+* **deps-dev:** bump typescript from 5.5.3 to 5.5.4 ([#382](https://github.com/ghoullier/fp-nutshell/issues/382)) ([810195c](https://github.com/ghoullier/fp-nutshell/commit/810195c1b274ffcce4310e4274126a307b59f448))
+
 ## [1.2.9](https://github.com/ghoullier/fp-nutshell/compare/v1.2.8...v1.2.9) (2024-07-15)
 
 
