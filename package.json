@@ -2,7 +2,7 @@
   "name": "@ghoullier/fp-nutshell",
   "description": "Functional programming in a nutshell",
   "author": "Grégory Houllier",
-  "version": "1.2.9",
+  "version": "1.3.0",
   "type": "module",
   "scripts": {
     "build:lib": "bun build --minify --outdir=dist src/index.ts",
@@ -14,7 +14,10 @@
     "lint:package": "publint .",
     "lint:fix": "biome check --write --unsafe"
   },
-  "files": ["dist", "package.json"],
+  "files": [
+    "dist",
+    "package.json"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
