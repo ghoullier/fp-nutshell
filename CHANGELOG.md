@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.1](https://github.com/ghoullier/fp-nutshell/compare/v1.3.0...v1.3.1) (2024-10-18)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @biomejs/biome from 1.9.3 to 1.9.4 ([#410](https://github.com/ghoullier/fp-nutshell/issues/410)) ([2d10487](https://github.com/ghoullier/fp-nutshell/commit/2d10487b3d2beabf02291094beac0b4abd70f0b4))
+* **deps-dev:** bump bun-types from 1.1.30 to 1.1.31 ([#411](https://github.com/ghoullier/fp-nutshell/issues/411)) ([687b064](https://github.com/ghoullier/fp-nutshell/commit/687b0645d74b7831ce1c0257b86b5c19f32c80c3))
+
 ## [1.3.0](https://github.com/ghoullier/fp-nutshell/compare/v1.2.9...v1.3.0) (2024-10-14)
 
 
