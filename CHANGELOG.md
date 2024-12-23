@@ -1,5 +1,31 @@
 # Changelog
 
+## [1.3.1](https://github.com/ghoullier/fp-nutshell/compare/v1.3.0...v1.3.1) (2024-12-23)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @arethetypeswrong/cli from 0.16.4 to 0.17.0 ([#419](https://github.com/ghoullier/fp-nutshell/issues/419)) ([7f90ea2](https://github.com/ghoullier/fp-nutshell/commit/7f90ea2e31eb74daed18f3bca17f54262fe87700))
+* **deps-dev:** bump @arethetypeswrong/cli from 0.17.0 to 0.17.1 ([#425](https://github.com/ghoullier/fp-nutshell/issues/425)) ([0ae6c42](https://github.com/ghoullier/fp-nutshell/commit/0ae6c42966cfe3727614440c9ff515f553334bb3))
+* **deps-dev:** bump @arethetypeswrong/cli from 0.17.1 to 0.17.2 ([#429](https://github.com/ghoullier/fp-nutshell/issues/429)) ([b22312f](https://github.com/ghoullier/fp-nutshell/commit/b22312f7f0cb990591bdcb39bb1ba65a7c0a34bd))
+* **deps-dev:** bump @biomejs/biome from 1.9.3 to 1.9.4 ([#410](https://github.com/ghoullier/fp-nutshell/issues/410)) ([2d10487](https://github.com/ghoullier/fp-nutshell/commit/2d10487b3d2beabf02291094beac0b4abd70f0b4))
+* **deps-dev:** bump @types/bun from 1.1.11 to 1.1.12 ([#414](https://github.com/ghoullier/fp-nutshell/issues/414)) ([f51c530](https://github.com/ghoullier/fp-nutshell/commit/f51c5300d554cca2eb6234b7dcfbeb9db8f9105f))
+* **deps-dev:** bump @types/bun from 1.1.12 to 1.1.13 ([#417](https://github.com/ghoullier/fp-nutshell/issues/417)) ([90b3a09](https://github.com/ghoullier/fp-nutshell/commit/90b3a09cf94eb80ed287da38d9c089bc8129ad39))
+* **deps-dev:** bump @types/bun from 1.1.13 to 1.1.14 ([#422](https://github.com/ghoullier/fp-nutshell/issues/422)) ([5838479](https://github.com/ghoullier/fp-nutshell/commit/58384795702cfcaad6c4a751ed5b185a298b6f1a))
+* **deps-dev:** bump bun-types from 1.1.30 to 1.1.31 ([#411](https://github.com/ghoullier/fp-nutshell/issues/411)) ([687b064](https://github.com/ghoullier/fp-nutshell/commit/687b0645d74b7831ce1c0257b86b5c19f32c80c3))
+* **deps-dev:** bump bun-types from 1.1.31 to 1.1.32 ([#413](https://github.com/ghoullier/fp-nutshell/issues/413)) ([058d304](https://github.com/ghoullier/fp-nutshell/commit/058d30438c537de69e5949963cfcb29e5cfbc1e7))
+* **deps-dev:** bump bun-types from 1.1.32 to 1.1.33 ([#416](https://github.com/ghoullier/fp-nutshell/issues/416)) ([29a6afd](https://github.com/ghoullier/fp-nutshell/commit/29a6afd350606ce7a120114667dc105520fd5682))
+* **deps-dev:** bump bun-types from 1.1.33 to 1.1.34 ([#418](https://github.com/ghoullier/fp-nutshell/issues/418)) ([c66a01e](https://github.com/ghoullier/fp-nutshell/commit/c66a01ef46875040ad1cfefc378c63d109869570))
+* **deps-dev:** bump bun-types from 1.1.34 to 1.1.36 ([#420](https://github.com/ghoullier/fp-nutshell/issues/420)) ([ee001bd](https://github.com/ghoullier/fp-nutshell/commit/ee001bd9a6a8f85ddf7dcf9952041697fea47bec))
+* **deps-dev:** bump bun-types from 1.1.36 to 1.1.37 ([#423](https://github.com/ghoullier/fp-nutshell/issues/423)) ([3acdba5](https://github.com/ghoullier/fp-nutshell/commit/3acdba5979c2a0dd85896e340c30bba8c7d5efa5))
+* **deps-dev:** bump bun-types from 1.1.37 to 1.1.38 ([#424](https://github.com/ghoullier/fp-nutshell/issues/424)) ([25aa19d](https://github.com/ghoullier/fp-nutshell/commit/25aa19d17e5188a5644b92e445f4dd0876db948d))
+* **deps-dev:** bump bun-types from 1.1.38 to 1.1.39 ([#426](https://github.com/ghoullier/fp-nutshell/issues/426)) ([f5d1b03](https://github.com/ghoullier/fp-nutshell/commit/f5d1b034365e8d79ae61d878767bd1b681d73d30))
+* **deps-dev:** bump bun-types from 1.1.39 to 1.1.40 ([#427](https://github.com/ghoullier/fp-nutshell/issues/427)) ([dab9f90](https://github.com/ghoullier/fp-nutshell/commit/dab9f90e7fc99b131457aff1353bb9320efaa76e))
+* **deps-dev:** bump bun-types from 1.1.40 to 1.1.41 ([#428](https://github.com/ghoullier/fp-nutshell/issues/428)) ([2ac95a1](https://github.com/ghoullier/fp-nutshell/commit/2ac95a18b123193199a7220615a1659f7d745012))
+* **deps-dev:** bump bun-types from 1.1.41 to 1.1.42 ([#430](https://github.com/ghoullier/fp-nutshell/issues/430)) ([331fe9d](https://github.com/ghoullier/fp-nutshell/commit/331fe9d327864d41b394083ab57e2e408d1299d4))
+* **deps-dev:** bump publint from 0.2.11 to 0.2.12 ([#415](https://github.com/ghoullier/fp-nutshell/issues/415)) ([c3b0130](https://github.com/ghoullier/fp-nutshell/commit/c3b0130dc8530a915b878f83c3c91079d2bf1548))
+* **deps-dev:** bump typescript from 5.6.3 to 5.7.2 ([#421](https://github.com/ghoullier/fp-nutshell/issues/421)) ([59ce2f7](https://github.com/ghoullier/fp-nutshell/commit/59ce2f7705a41a1f9dbd62c9ab1d402bbad06436))
+
 ## [1.3.0](https://github.com/ghoullier/fp-nutshell/compare/v1.2.9...v1.3.0) (2024-10-14)
 
 
