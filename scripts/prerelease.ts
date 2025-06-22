@@ -1,19 +1,19 @@
-import { EOL } from "node:os";
+import { EOL } from "node:os"
 
 interface Manifest {
-  name: string;
-  version: string;
-  license: string;
+  name: string
+  version: string
+  license: string
 }
 
 interface JsrManifest extends Manifest {
-  exports: string;
+  exports: string
 }
 
-const jsr = Bun.file("./jsr.json", { type: "application/json" });
-const jsrContent: Pick<JsrManifest, "license"> = await jsr.json();
-const pkg = Bun.file("./package.json", { type: "application/json" });
-const pkgContent: Manifest = await pkg.json();
+const jsr = Bun.file("./jsr.json", { type: "application/json" })
+const jsrContent: Pick<JsrManifest, "license"> = await jsr.json()
+const pkg = Bun.file("./package.json", { type: "application/json" })
+const pkgContent: Manifest = await pkg.json()
 
 await Bun.write(
   jsr,
@@ -27,4 +27,4 @@ await Bun.write(
     null,
     2,
   )}${EOL}`,
-);
+)

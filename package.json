@@ -8,7 +8,7 @@
     "build:lib": "bun build --minify --outdir=dist src/index.ts",
     "build:types": "tsc -p tsconfig.build.json",
     "build": "bun build:lib && bun build:types",
-    "lint": "npm run lint:lib && npm run lint:exports && npm run lint:package",
+    "lint": "bun run build && bun run lint:lib && bun run lint:exports && bun run lint:package",
     "lint:lib": "biome check src/*.ts",
     "lint:exports": "attw --pack . --ignore-rules no-resolution cjs-resolves-to-esm",
     "lint:package": "publint .",
@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "0.18.2",
-    "@biomejs/biome": "1.9.4",
+    "@biomejs/biome": "2.0.4",
     "@tsconfig/strictest": "2.0.5",
     "@types/bun": "1.2.15",
     "bun-types": "1.2.16",

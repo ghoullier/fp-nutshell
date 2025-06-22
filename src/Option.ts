@@ -1,14 +1,13 @@
-import { Container } from "./Container.ts";
-import type { Mapper } from "./Mapper.ts";
+import { Container } from "./Container.ts"
+import type { Mapper } from "./Mapper.ts"
 
 interface Some<Value> {
-  value: Value;
+  value: Value
 }
 
-// biome-ignore lint/complexity/noBannedTypes: <explanation>
-type None = {};
+type None = Record<string, never>
 
-type $Option<Value> = Some<Value> | None;
+type $Option<Value> = Some<Value> | None
 
 /**
  * A container for a value that may or may not exist.
@@ -21,21 +20,21 @@ export class Option<const Value> extends Container<$Option<Value>> {
    * @returns {Option<Value>}
    */
   static Some<const Value>(value: Value): Option<Value> {
-    return new Option({ value });
+    return new Option({ value })
   }
   /**
    * Creates a container with no value.
    * @returns {Option<Value>}
    */
   static None<const Value>(): Option<Value> {
-    return new Option({});
+    return new Option({})
   }
   /**
    * Checks if the container contains a value.
    * @returns {boolean}
    */
   isOk(): boolean {
-    return "value" in this.value;
+    return "value" in this.value
   }
   /**
    * Extracts the value from the container with a fallback value.
@@ -44,9 +43,9 @@ export class Option<const Value> extends Container<$Option<Value>> {
    */
   orElse(fallback: Value): Value {
     if (this.isOk()) {
-      return (this.value as Some<Value>).value;
+      return (this.value as Some<Value>).value
     }
-    return fallback;
+    return fallback
   }
   /**
    * Returns a readable string of the container.
@@ -54,9 +53,9 @@ export class Option<const Value> extends Container<$Option<Value>> {
    */
   override toString(): string {
     if (this.isOk()) {
-      return `Some(${String((this.value as Some<Value>).value)})`;
+      return `Some(${String((this.value as Some<Value>).value)})`
     }
-    return "None";
+    return "None"
   }
   /**
    * Maps the value of the container to a new value.
@@ -65,9 +64,9 @@ export class Option<const Value> extends Container<$Option<Value>> {
    */
   map<const Result>(mapper: Mapper<Value, Result>): Option<Result> {
     if (!this.isOk()) {
-      return Option.None();
+      return Option.None()
     }
-    return Option.Some(mapper((this.value as Some<Value>).value));
+    return Option.Some(mapper((this.value as Some<Value>).value))
   }
   /**
    * Flat maps the value of the container to a new container.
@@ -76,8 +75,8 @@ export class Option<const Value> extends Container<$Option<Value>> {
    */
   flatMap<const Result>(mapper: Mapper<Value, Option<Result>>): Option<Result> {
     if (!this.isOk()) {
-      return Option.None();
+      return Option.None()
     }
-    return mapper((this.value as Some<Value>).value);
+    return mapper((this.value as Some<Value>).value)
   }
 }
