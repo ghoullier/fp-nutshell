@@ -1,6 +1,6 @@
-import { Container } from "./Container.ts";
+import { Container } from "./Container.ts"
 
-import type { Mapper } from "./Mapper.ts";
+import type { Mapper } from "./Mapper.ts"
 
 /**
  * A container for a value that can be mapped over.
@@ -13,6 +13,6 @@ export class Functor<const Value> extends Container<Value> {
    * @returns Functor<Result>
    */
   map<const Result>(mapper: Mapper<Value, Result>): Functor<Result> {
-    return new Functor(mapper(this.value));
+    return new Functor(mapper(this.value))
   }
 }

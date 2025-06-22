@@ -1,6 +1,6 @@
-import { Container } from "./Container.ts";
+import { Container } from "./Container.ts"
 
-import type { Mapper } from "./Mapper.ts";
+import type { Mapper } from "./Mapper.ts"
 
 /**
  * A container for a value that can be mapped over.
@@ -13,7 +13,7 @@ export class Monad<const Value> extends Container<Value> {
    * @returns {Monad<Result>}
    */
   map<const Result>(mapper: Mapper<Value, Result>): Monad<Result> {
-    return new Monad(mapper(this.value));
+    return new Monad(mapper(this.value))
   }
   /**
    * Flat maps the value of the container to a new container.
@@ -21,6 +21,6 @@ export class Monad<const Value> extends Container<Value> {
    * @returns {Monad<Result>}
    */
   flatMap<const Result>(mapper: Mapper<Value, Monad<Result>>): Monad<Result> {
-    return mapper(this.value);
+    return mapper(this.value)
   }
 }
