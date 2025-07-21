@@ -23,4 +23,12 @@ export class Monad<const Value> extends Container<Value> {
   flatMap<const Result>(mapper: Mapper<Value, Monad<Result>>): Monad<Result> {
     return mapper(this.value)
   }
+
+  /**
+   * Returns a readable string of the container.
+   * @returns {string}
+   */
+  override toString(): string {
+    return `Monad(${String(this.value)})`
+  }
 }

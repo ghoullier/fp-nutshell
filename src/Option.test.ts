@@ -43,4 +43,14 @@ describe("Option", () => {
     expect(html.orElse("<div>fallback</div>")).toBe("<div>content</div>")
     expect(mapper).toHaveBeenCalledTimes(1)
   })
+
+  test("should correctly render when apply toString() to a Some", () => {
+    const content = Option.Some("content")
+    expect(content.toString()).toBe("Some(content)")
+  })
+
+  test("should correctly render when apply toString() to a None", () => {
+    const content = Option.None()
+    expect(content.toString()).toBe("None")
+  })
 })
