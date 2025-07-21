@@ -12,4 +12,12 @@ export class Container<const Value> {
   get value(): Value {
     return this.#value
   }
+
+  /**
+   * Returns a string representation of the container.
+   * @returns {string}
+   */
+  toString(): string {
+    return `Container(${String(this.value)})`
+  }
 }

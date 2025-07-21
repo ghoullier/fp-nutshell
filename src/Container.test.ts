@@ -14,4 +14,9 @@ describe("Container", () => {
     source = 1
     expect(content.value).toBe(0)
   })
+
+  test("should correctly render when apply toString()", () => {
+    const content = new Container("content")
+    expect(content.toString()).toBe("Container(content)")
+  })
 })

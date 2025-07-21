@@ -15,4 +15,12 @@ export class Functor<const Value> extends Container<Value> {
   map<const Result>(mapper: Mapper<Value, Result>): Functor<Result> {
     return new Functor(mapper(this.value))
   }
+
+  /**
+   * Returns a readable string of the container.
+   * @returns {string}
+   */
+  override toString(): string {
+    return `Functor(${String(this.value)})`
+  }
 }
