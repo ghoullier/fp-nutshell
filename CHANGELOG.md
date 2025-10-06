@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/ghoullier/fp-nutshell/compare/v1.4.0...v1.4.1) (2025-10-06)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump publint from 0.3.13 to 0.3.14 ([#519](https://github.com/ghoullier/fp-nutshell/issues/519)) ([872e63d](https://github.com/ghoullier/fp-nutshell/commit/872e63d6902a8733e14b1288d49dcd7fbbd9e3cc))
+
 ## [1.4.0](https://github.com/ghoullier/fp-nutshell/compare/v1.3.0...v1.4.0) (2025-10-02)
 
 
