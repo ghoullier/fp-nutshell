@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.4.1](https://github.com/ghoullier/fp-nutshell/compare/v1.4.0...v1.4.1) (2025-10-13)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @biomejs/biome from 2.2.5 to 2.2.6 ([#521](https://github.com/ghoullier/fp-nutshell/issues/521)) ([d967c7d](https://github.com/ghoullier/fp-nutshell/commit/d967c7d968cb76a0cbd866dd32c8053ddb90c8ea))
+* **deps-dev:** bump @types/bun from 1.2.23 to 1.3.0 ([#523](https://github.com/ghoullier/fp-nutshell/issues/523)) ([970d95a](https://github.com/ghoullier/fp-nutshell/commit/970d95a7bb40734e8357ef8c42a74dbae0a487dc))
+* **deps-dev:** bump bun-types from 1.2.23 to 1.3.0 ([#522](https://github.com/ghoullier/fp-nutshell/issues/522)) ([e0c7757](https://github.com/ghoullier/fp-nutshell/commit/e0c77571a33250fdd81a9c476a6a1398a21aa855))
+* **deps-dev:** bump publint from 0.3.13 to 0.3.14 ([#519](https://github.com/ghoullier/fp-nutshell/issues/519)) ([872e63d](https://github.com/ghoullier/fp-nutshell/commit/872e63d6902a8733e14b1288d49dcd7fbbd9e3cc))
+
 ## [1.4.0](https://github.com/ghoullier/fp-nutshell/compare/v1.3.0...v1.4.0) (2025-10-02)
 
 
