@@ -12,6 +12,6 @@
     "outDir": "dist",
     "allowImportingTsExtensions": true
   },
-  "include": ["scripts/*", "src/**/*"],
+  "include": ["scripts/*", "./src"],
   "exclude": ["node_modules", "dist"]
 }
