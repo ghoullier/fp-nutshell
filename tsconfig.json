@@ -6,12 +6,12 @@
     "target": "esnext",
     "moduleResolution": "bundler",
     "moduleDetection": "force",
-    "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions": true,
     "declaration": true,
     "emitDeclarationOnly": true,
     "outDir": "dist",
-    "allowImportingTsExtensions": true
+    "rootDir": "./src"
   },
-  "include": ["scripts/*", "./src"],
+  "include": ["./src"],
   "exclude": ["node_modules", "dist"]
 }
