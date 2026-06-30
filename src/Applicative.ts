@@ -43,7 +43,9 @@ export class Applicative<const Value> extends Container<Value> {
    * @param {Applicative<Mapper<Value, Result>>} fn - An Applicative containing a function
    * @returns {Applicative<Result>}
    */
-  ap<const Result>(fn: Applicative<Mapper<Value, Result>>): Applicative<Result> {
+  ap<const Result>(
+    fn: Applicative<Mapper<Value, Result>>,
+  ): Applicative<Result> {
     return new Applicative(fn.value(this.value))
   }
 
