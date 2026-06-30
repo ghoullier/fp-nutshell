@@ -33,7 +33,10 @@ export class Foldable<const Value> {
   /**
    * Right fold: reduces values from right to left using a reducer function and initial accumulator.
    */
-  reduceRight<Acc>(reducer: (acc: Acc, value: Value) => Acc, initial: Acc): Acc {
+  reduceRight<Acc>(
+    reducer: (acc: Acc, value: Value) => Acc,
+    initial: Acc,
+  ): Acc {
     return this.#values.reduceRight(reducer, initial)
   }
 
