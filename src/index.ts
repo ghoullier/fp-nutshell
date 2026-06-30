@@ -1,3 +1,4 @@
+export * from "./Applicative.ts"
 export * from "./Container.ts"
 export * from "./Curry.ts"
 export * from "./Functor.ts"
