@@ -1,5 +1,6 @@
 export * from "./Container.ts"
 export * from "./Functor.ts"
+export * from "./Identity.ts"
 export * from "./Mapper.ts"
 export * from "./Monad.ts"
 export * from "./Option.ts"
