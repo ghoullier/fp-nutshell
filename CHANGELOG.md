@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/ghoullier/fp-nutshell/compare/v1.5.0...v1.5.1) (2026-07-01)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @biomejs/biome from 2.5.1 to 2.5.2 ([#602](https://github.com/ghoullier/fp-nutshell/issues/602)) ([7f44ec4](https://github.com/ghoullier/fp-nutshell/commit/7f44ec4c5ce4ebbda26c4c8200561154e211f7d9))
+
 ## [1.5.0](https://github.com/ghoullier/fp-nutshell/compare/v1.4.0...v1.5.0) (2026-06-30)
 
 
