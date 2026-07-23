@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.1](https://github.com/ghoullier/fp-nutshell/compare/v1.5.0...v1.5.1) (2026-07-23)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @arethetypeswrong/cli from 0.18.4 to 0.18.5 ([#606](https://github.com/ghoullier/fp-nutshell/issues/606)) ([c635a55](https://github.com/ghoullier/fp-nutshell/commit/c635a5585ca038e290e2db790e9e5bd00f82a477))
+* **deps-dev:** bump @biomejs/biome from 2.5.1 to 2.5.2 ([#602](https://github.com/ghoullier/fp-nutshell/issues/602)) ([7f44ec4](https://github.com/ghoullier/fp-nutshell/commit/7f44ec4c5ce4ebbda26c4c8200561154e211f7d9))
+* **deps-dev:** bump @biomejs/biome from 2.5.2 to 2.5.3 ([#605](https://github.com/ghoullier/fp-nutshell/issues/605)) ([837ec3d](https://github.com/ghoullier/fp-nutshell/commit/837ec3d993944b6b3e9aa6f3fb86d132dc6bbda6))
+* **deps-dev:** bump @biomejs/biome from 2.5.3 to 2.5.4 ([#607](https://github.com/ghoullier/fp-nutshell/issues/607)) ([d78b4e0](https://github.com/ghoullier/fp-nutshell/commit/d78b4e08b7e402d2144736ca7df0edbaad38e6db))
+* **deps-dev:** bump @biomejs/biome from 2.5.4 to 2.5.5 ([#608](https://github.com/ghoullier/fp-nutshell/issues/608)) ([d14da1b](https://github.com/ghoullier/fp-nutshell/commit/d14da1b9c27b3184c07c6323c417ee0033de705f))
+* **deps-dev:** bump publint from 0.3.21 to 0.3.22 ([#609](https://github.com/ghoullier/fp-nutshell/issues/609)) ([7065e8d](https://github.com/ghoullier/fp-nutshell/commit/7065e8d3a9b71d73c981ac8ac221603d3599c900))
+
 ## [1.5.0](https://github.com/ghoullier/fp-nutshell/compare/v1.4.0...v1.5.0) (2026-06-30)
 
 
